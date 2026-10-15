@@ -1,0 +1,104 @@
+{
+  "brand": "NIGHTRIDERCO",
+  "created": "2026-10-13",
+  "source_art_sha256": {
+    "skadi-master": "106e3c8c567203f04ab2610c6be8648b686f4a380a57d84771b2b1dd54ae11a1",
+    "nordic-landscape": "554bccab1d98a6f5772233c7fee041913380682c2eddec2679cb7c780679171e"
+  },
+  "font": "Arial / Helvetica / sans-serif",
+  "notes": [
+    "All art references are self-contained base64 PNG image tags preserving original source bytes. Only native layout, resize, clipping and overlay composition are used.",
+    "Text objects are editable. Open SVG in a vector editor and change separate text objects; Arial is requested with Helvetica/sans-serif fallback.",
+    "The social schedule and thumbnail have explicitly labeled blank fields. Add your actual content before publishing.",
+    "Static alert cards contain event labels and blank name fields. They do not connect to live alert events.",
+    "Channel banner uses the requested 2560×1400 canvas. Critical title/mascot elements are within the central 60% except a 2 px edge of transparent source margin."
+  ],
+  "assets": [
+    {
+      "path": "04_SOCIAL/live-announcement-1080x1080.svg",
+      "width": 1080,
+      "height": 1080,
+      "format": "svg",
+      "category": "social_template",
+      "template_kind": "live_square"
+    },
+    {
+      "path": "04_SOCIAL/vertical-announcement-1080x1920.svg",
+      "width": 1080,
+      "height": 1920,
+      "format": "svg",
+      "category": "social_template",
+      "template_kind": "live_vertical"
+    },
+    {
+      "path": "04_SOCIAL/thumbnail-1920x1080.svg",
+      "width": 1920,
+      "height": 1080,
+      "format": "svg",
+      "category": "social_template",
+      "template_kind": "thumbnail",
+      "blank_fields": [
+        "TITLE / TÍTULO"
+      ]
+    },
+    {
+      "path": "04_SOCIAL/schedule-1080x1350.svg",
+      "width": 1080,
+      "height": 1350,
+      "format": "svg",
+      "category": "social_template",
+      "template_kind": "schedule",
+      "blank_fields": [
+        "DAY / DÍA",
+        "TIME / HORA",
+        "STREAM / DIRECTO",
+        "TIME ZONE / ZONA HORARIA"
+      ]
+    },
+    {
+      "path": "04_SOCIAL/live-announcement-1080x1080.png",
+      "width": 1080,
+      "height": 1080,
+      "format": "png",
+      "category": "social_template",
+      "template_kind": "live_square",
+      "bytes": 957051
+    },
+    {
+      "path": "04_SOCIAL/vertical-announcement-1080x1920.png",
+      "width": 1080,
+      "height": 1920,
+      "format": "png",
+      "category": "social_template",
+      "template_kind": "live_vertical",
+      "bytes": 1240938
+    },
+    {
+      "path": "04_SOCIAL/thumbnail-1920x1080.png",
+      "width": 1920,
+      "height": 1080,
+      "format": "png",
+      "category": "social_template",
+      "template_kind": "thumbnail",
+      "blank_fields": [
+        "TITLE / TÍTULO"
+      ],
+      "bytes": 1740158
+    },
+    {
+      "path": "04_SOCIAL/schedule-1080x1350.png",
+      "width": 1080,
+      "height": 1350,
+      "format": "png",
+      "category": "social_template",
+      "template_kind": "schedule",
+      "blank_fields": [
+        "DAY / DÍA",
+        "TIME / HORA",
+        "STREAM / DIRECTO",
+        "TIME ZONE / ZONA HORARIA"
+      ],
+      "bytes": 461725
+    }
+  ]
+}

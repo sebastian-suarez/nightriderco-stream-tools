@@ -1,0 +1,341 @@
+{
+  "brand": "NIGHTRIDERCO",
+  "created": "2026-10-13",
+  "palette": {
+    "ink": "#0B1118",
+    "navy": "#152330",
+    "white": "#F1F6F8",
+    "muted": "#95A8B5",
+    "ice": "#74DFFF",
+    "lime": "#B5F36B"
+  },
+  "font": "Arial / Helvetica / sans-serif",
+  "notes": [
+    "SVG panel and wordmark typography remains editable text. Arial is requested; Helvetica and generic sans-serif are fallbacks.",
+    "Panel exports are header images only; no schedule, hardware specifications, external links, donation instructions, or policies have been invented.",
+    "Badge names and milestone mapping are suggestions; 512, 64 and 32 px exports are design exports, not platform eligibility or size requirements.",
+    "All branding and badges are original geometric artwork with transparent backgrounds."
+  ],
+  "assets": [
+    {
+      "path": "05_COMMUNITY/badges/00_base_frost_512.svg",
+      "category": "community_badge",
+      "format": "svg",
+      "width": 512,
+      "height": 512,
+      "transparent": true,
+      "level": 0,
+      "suggested_milestone_months": 0
+    },
+    {
+      "path": "05_COMMUNITY/badges/01_01m_ridge_512.svg",
+      "category": "community_badge",
+      "format": "svg",
+      "width": 512,
+      "height": 512,
+      "transparent": true,
+      "level": 1,
+      "suggested_milestone_months": 1
+    },
+    {
+      "path": "05_COMMUNITY/badges/02_02m_glacier_512.svg",
+      "category": "community_badge",
+      "format": "svg",
+      "width": 512,
+      "height": 512,
+      "transparent": true,
+      "level": 2,
+      "suggested_milestone_months": 2
+    },
+    {
+      "path": "05_COMMUNITY/badges/03_03m_summit_512.svg",
+      "category": "community_badge",
+      "format": "svg",
+      "width": 512,
+      "height": 512,
+      "transparent": true,
+      "level": 3,
+      "suggested_milestone_months": 3
+    },
+    {
+      "path": "05_COMMUNITY/badges/04_06m_warden_512.svg",
+      "category": "community_badge",
+      "format": "svg",
+      "width": 512,
+      "height": 512,
+      "transparent": true,
+      "level": 4,
+      "suggested_milestone_months": 6
+    },
+    {
+      "path": "05_COMMUNITY/badges/05_09m_aurora_512.svg",
+      "category": "community_badge",
+      "format": "svg",
+      "width": 512,
+      "height": 512,
+      "transparent": true,
+      "level": 5,
+      "suggested_milestone_months": 9
+    },
+    {
+      "path": "05_COMMUNITY/badges/06_12m_skadi_512.svg",
+      "category": "community_badge",
+      "format": "svg",
+      "width": 512,
+      "height": 512,
+      "transparent": true,
+      "level": 6,
+      "suggested_milestone_months": 12
+    },
+    {
+      "path": "05_COMMUNITY/badges/07_24m_nightrider_512.svg",
+      "category": "community_badge",
+      "format": "svg",
+      "width": 512,
+      "height": 512,
+      "transparent": true,
+      "level": 7,
+      "suggested_milestone_months": 24
+    },
+    {
+      "path": "05_COMMUNITY/badges/00_base_frost_512x512.png",
+      "category": "community_badge",
+      "format": "png",
+      "width": 512,
+      "height": 512,
+      "transparent": true,
+      "level": 0,
+      "suggested_milestone_months": 0
+    },
+    {
+      "path": "05_COMMUNITY/badges/00_base_frost_64x64.png",
+      "category": "community_badge",
+      "format": "png",
+      "width": 64,
+      "height": 64,
+      "transparent": true,
+      "level": 0,
+      "suggested_milestone_months": 0
+    },
+    {
+      "path": "05_COMMUNITY/badges/00_base_frost_32x32.png",
+      "category": "community_badge",
+      "format": "png",
+      "width": 32,
+      "height": 32,
+      "transparent": true,
+      "level": 0,
+      "suggested_milestone_months": 0
+    },
+    {
+      "path": "05_COMMUNITY/badges/01_01m_ridge_512x512.png",
+      "category": "community_badge",
+      "format": "png",
+      "width": 512,
+      "height": 512,
+      "transparent": true,
+      "level": 1,
+      "suggested_milestone_months": 1
+    },
+    {
+      "path": "05_COMMUNITY/badges/01_01m_ridge_64x64.png",
+      "category": "community_badge",
+      "format": "png",
+      "width": 64,
+      "height": 64,
+      "transparent": true,
+      "level": 1,
+      "suggested_milestone_months": 1
+    },
+    {
+      "path": "05_COMMUNITY/badges/01_01m_ridge_32x32.png",
+      "category": "community_badge",
+      "format": "png",
+      "width": 32,
+      "height": 32,
+      "transparent": true,
+      "level": 1,
+      "suggested_milestone_months": 1
+    },
+    {
+      "path": "05_COMMUNITY/badges/02_02m_glacier_512x512.png",
+      "category": "community_badge",
+      "format": "png",
+      "width": 512,
+      "height": 512,
+      "transparent": true,
+      "level": 2,
+      "suggested_milestone_months": 2
+    },
+    {
+      "path": "05_COMMUNITY/badges/02_02m_glacier_64x64.png",
+      "category": "community_badge",
+      "format": "png",
+      "width": 64,
+      "height": 64,
+      "transparent": true,
+      "level": 2,
+      "suggested_milestone_months": 2
+    },
+    {
+      "path": "05_COMMUNITY/badges/02_02m_glacier_32x32.png",
+      "category": "community_badge",
+      "format": "png",
+      "width": 32,
+      "height": 32,
+      "transparent": true,
+      "level": 2,
+      "suggested_milestone_months": 2
+    },
+    {
+      "path": "05_COMMUNITY/badges/03_03m_summit_512x512.png",
+      "category": "community_badge",
+      "format": "png",
+      "width": 512,
+      "height": 512,
+      "transparent": true,
+      "level": 3,
+      "suggested_milestone_months": 3
+    },
+    {
+      "path": "05_COMMUNITY/badges/03_03m_summit_64x64.png",
+      "category": "community_badge",
+      "format": "png",
+      "width": 64,
+      "height": 64,
+      "transparent": true,
+      "level": 3,
+      "suggested_milestone_months": 3
+    },
+    {
+      "path": "05_COMMUNITY/badges/03_03m_summit_32x32.png",
+      "category": "community_badge",
+      "format": "png",
+      "width": 32,
+      "height": 32,
+      "transparent": true,
+      "level": 3,
+      "suggested_milestone_months": 3
+    },
+    {
+      "path": "05_COMMUNITY/badges/04_06m_warden_512x512.png",
+      "category": "community_badge",
+      "format": "png",
+      "width": 512,
+      "height": 512,
+      "transparent": true,
+      "level": 4,
+      "suggested_milestone_months": 6
+    },
+    {
+      "path": "05_COMMUNITY/badges/04_06m_warden_64x64.png",
+      "category": "community_badge",
+      "format": "png",
+      "width": 64,
+      "height": 64,
+      "transparent": true,
+      "level": 4,
+      "suggested_milestone_months": 6
+    },
+    {
+      "path": "05_COMMUNITY/badges/04_06m_warden_32x32.png",
+      "category": "community_badge",
+      "format": "png",
+      "width": 32,
+      "height": 32,
+      "transparent": true,
+      "level": 4,
+      "suggested_milestone_months": 6
+    },
+    {
+      "path": "05_COMMUNITY/badges/05_09m_aurora_512x512.png",
+      "category": "community_badge",
+      "format": "png",
+      "width": 512,
+      "height": 512,
+      "transparent": true,
+      "level": 5,
+      "suggested_milestone_months": 9
+    },
+    {
+      "path": "05_COMMUNITY/badges/05_09m_aurora_64x64.png",
+      "category": "community_badge",
+      "format": "png",
+      "width": 64,
+      "height": 64,
+      "transparent": true,
+      "level": 5,
+      "suggested_milestone_months": 9
+    },
+    {
+      "path": "05_COMMUNITY/badges/05_09m_aurora_32x32.png",
+      "category": "community_badge",
+      "format": "png",
+      "width": 32,
+      "height": 32,
+      "transparent": true,
+      "level": 5,
+      "suggested_milestone_months": 9
+    },
+    {
+      "path": "05_COMMUNITY/badges/06_12m_skadi_512x512.png",
+      "category": "community_badge",
+      "format": "png",
+      "width": 512,
+      "height": 512,
+      "transparent": true,
+      "level": 6,
+      "suggested_milestone_months": 12
+    },
+    {
+      "path": "05_COMMUNITY/badges/06_12m_skadi_64x64.png",
+      "category": "community_badge",
+      "format": "png",
+      "width": 64,
+      "height": 64,
+      "transparent": true,
+      "level": 6,
+      "suggested_milestone_months": 12
+    },
+    {
+      "path": "05_COMMUNITY/badges/06_12m_skadi_32x32.png",
+      "category": "community_badge",
+      "format": "png",
+      "width": 32,
+      "height": 32,
+      "transparent": true,
+      "level": 6,
+      "suggested_milestone_months": 12
+    },
+    {
+      "path": "05_COMMUNITY/badges/07_24m_nightrider_512x512.png",
+      "category": "community_badge",
+      "format": "png",
+      "width": 512,
+      "height": 512,
+      "transparent": true,
+      "level": 7,
+      "suggested_milestone_months": 24
+    },
+    {
+      "path": "05_COMMUNITY/badges/07_24m_nightrider_64x64.png",
+      "category": "community_badge",
+      "format": "png",
+      "width": 64,
+      "height": 64,
+      "transparent": true,
+      "level": 7,
+      "suggested_milestone_months": 24
+    },
+    {
+      "path": "05_COMMUNITY/badges/07_24m_nightrider_32x32.png",
+      "category": "community_badge",
+      "format": "png",
+      "width": 32,
+      "height": 32,
+      "transparent": true,
+      "level": 7,
+      "suggested_milestone_months": 24
+    }
+  ]
+}

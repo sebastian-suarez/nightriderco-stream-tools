@@ -1,0 +1,8 @@
+/* Local OBS browser overlay; all coordinates use the 2560 × 1440 canvas. */
+* { box-sizing: border-box; }
+html, body { width: 100%; height: 100%; margin: 0; overflow: hidden; background: transparent; }
+#stage { position: absolute; width: 2560px; height: 1440px; transform-origin: top left; }
+#stage > svg { display: block; width: 2560px; height: 1440px; }
+.language-copy { opacity: 1; transition: opacity 180ms ease; }
+.language-copy.changing { opacity: 0; }
+@media (prefers-reduced-motion: reduce) { .language-copy { transition: none; } }

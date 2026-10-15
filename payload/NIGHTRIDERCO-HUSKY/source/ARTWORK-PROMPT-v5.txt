@@ -1,0 +1,11 @@
+Mode: built-in imagegen edit, transparent_background=true.
+Target: existing Nordic wolf atlas. Output: wolf-speaking.png.
+Only a muzzle patch from this image is displayed during speech; the original
+wolf, eye blink, keyboard orientation, and outward paw positions are preserved.
+
+Use case: precise-object-edit
+Edit target: current 1536x1024 Nordic wolf sprite atlas.
+Make an OPEN-MOUTH SPEAKING version of the existing wolf. ONLY change the lips and lower jaw of the two wolf busts (top-left and top-middle). Preserve literally everything else: canvas dimensions, every sprite's coordinates, wolf nose position, eye positions, eye expression (first open, second closed), forehead, ears, collar, pendant, shoulders, all fur silhouette boundaries, lighting, illustration style, all arms, all keyboard components.
+The mature masculine gray wolf is calmly SPEAKING: mouth moderately open, black/dark maroon oral cavity, understated muted tongue INSIDE the mouth, two tiny naturally visible white lower/upper canine tips if anatomically appropriate. No hanging tongue, no grin, no aggressive snarling, no exaggerated gums or teeth. Upper lips gently part and lower jaw drops a little. Preserve broad gray/white muzzle and larger black nose exactly. Nose, upper muzzle bridge, and eyes must remain registered precisely to the input.
+The altered region on the first wolf must be confined around x185–375,y333–455; matching corresponding region on second wolf x686–876,y333–455. All surrounding muzzle fur is retained so a small patch can seamlessly overlay the original closed-mouth face during speech. The lower neck, pendant and outer head silhouette must not shift. Do not recreate the whole layout or change scale. No new character or objects.
+Preserve true alpha transparency. No background, no added lettering. This is the speaking pose for the same character, not a new drawing or new design.

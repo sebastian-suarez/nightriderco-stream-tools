@@ -1,0 +1,139 @@
+{
+  "brand": "NIGHTRIDERCO",
+  "created": "2026-10-13",
+  "version": 3,
+  "variant": "compact",
+  "source_canvas": {
+    "width": 520,
+    "height": 128
+  },
+  "visible_card": {
+    "x": 20,
+    "y": 20,
+    "width": 480,
+    "height": 88
+  },
+  "browser_source_qhd": {
+    "width": 2560,
+    "height": 1440,
+    "x": 0,
+    "y": 0
+  },
+  "png_source_qhd": {
+    "x": 2020,
+    "y": 20
+  },
+  "visible_card_qhd": {
+    "x": 2040,
+    "y": 40
+  },
+  "name_text_area": {
+    "x": 88,
+    "y": 65,
+    "width": 372,
+    "height": 29,
+    "font_px": 24
+  },
+  "assets": [
+    {
+      "path": "03_OBS/alert-cards/compact/follow-520x128.svg",
+      "event": "follow",
+      "label": "FOLLOW / SEGUIDOR",
+      "width": 520,
+      "height": 128,
+      "format": "svg",
+      "transparent": true,
+      "empty_name_area": true
+    },
+    {
+      "path": "03_OBS/alert-cards/compact/follow-520x128.png",
+      "event": "follow",
+      "label": "FOLLOW / SEGUIDOR",
+      "width": 520,
+      "height": 128,
+      "format": "png",
+      "transparent": true,
+      "empty_name_area": true
+    },
+    {
+      "path": "03_OBS/alert-cards/compact/sub-520x128.svg",
+      "event": "sub",
+      "label": "SUB / SUSCRIPCIÓN",
+      "width": 520,
+      "height": 128,
+      "format": "svg",
+      "transparent": true,
+      "empty_name_area": true
+    },
+    {
+      "path": "03_OBS/alert-cards/compact/sub-520x128.png",
+      "event": "sub",
+      "label": "SUB / SUSCRIPCIÓN",
+      "width": 520,
+      "height": 128,
+      "format": "png",
+      "transparent": true,
+      "empty_name_area": true
+    },
+    {
+      "path": "03_OBS/alert-cards/compact/gift-520x128.svg",
+      "event": "gift",
+      "label": "GIFT / REGALO",
+      "width": 520,
+      "height": 128,
+      "format": "svg",
+      "transparent": true,
+      "empty_name_area": true
+    },
+    {
+      "path": "03_OBS/alert-cards/compact/gift-520x128.png",
+      "event": "gift",
+      "label": "GIFT / REGALO",
+      "width": 520,
+      "height": 128,
+      "format": "png",
+      "transparent": true,
+      "empty_name_area": true
+    },
+    {
+      "path": "03_OBS/alert-cards/compact/tip-520x128.svg",
+      "event": "tip",
+      "label": "SUPPORT / APOYO",
+      "width": 520,
+      "height": 128,
+      "format": "svg",
+      "transparent": true,
+      "empty_name_area": true
+    },
+    {
+      "path": "03_OBS/alert-cards/compact/tip-520x128.png",
+      "event": "tip",
+      "label": "SUPPORT / APOYO",
+      "width": 520,
+      "height": 128,
+      "format": "png",
+      "transparent": true,
+      "empty_name_area": true
+    },
+    {
+      "path": "03_OBS/alert-cards/compact/raid-520x128.svg",
+      "event": "raid",
+      "label": "RAID / RAID",
+      "width": 520,
+      "height": 128,
+      "format": "svg",
+      "transparent": true,
+      "empty_name_area": true
+    },
+    {
+      "path": "03_OBS/alert-cards/compact/raid-520x128.png",
+      "event": "raid",
+      "label": "RAID / RAID",
+      "width": 520,
+      "height": 128,
+      "format": "png",
+      "transparent": true,
+      "empty_name_area": true
+    }
+  ]
+}

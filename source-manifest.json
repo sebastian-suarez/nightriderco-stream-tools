@@ -1,0 +1,1542 @@
+{
+  "schema_version": 1,
+  "scope": "Final distributed files, excluding this manifest and ignored runtime/build evidence.",
+  "files": [
+    {
+      "path": ".gitignore",
+      "sha256": "a59cfbd878c6bc7d671de35e36b5d5d994825ff8ea270be9ff5ba038ad458c22"
+    },
+    {
+      "path": "Install.command",
+      "sha256": "6e91b745378a0c5b9ec161f4a9d729f758d480c65bc4a9759583c2534bb564ab"
+    },
+    {
+      "path": "README.md",
+      "sha256": "b5f6e8dee537516488fedaa0c2158c6afe395772461b78753e13299546833731"
+    },
+    {
+      "path": "THIRD-PARTY-NOTICES.md",
+      "sha256": "ccf407efb6092db94761006695d03940cb7c573059dce30ed5eb9961c4851880"
+    },
+    {
+      "path": "docs/COVERAGE.md",
+      "sha256": "e319432fc02d771a4423e90c19271dfaeadeaacdb12f8340c8bb40dfdec8629f"
+    },
+    {
+      "path": "docs/OBS-SETUP.md",
+      "sha256": "db672969d930348a7b8e2376b05c843bfae03782ed326594b67adcb57a488f1a"
+    },
+    {
+      "path": "docs/OPERATIONS.md",
+      "sha256": "dcffee3bbef39fe5c7be1418f54401ed44fdb5eeadf7956ae3e70eafc8e29f07"
+    },
+    {
+      "path": "docs/OPTIONAL.md",
+      "sha256": "7d8e37228a2dfff1e18ce77fe475ebff618ade9a7220f12d2b0005581e6f85d5"
+    },
+    {
+      "path": "docs/VERIFICATION.md",
+      "sha256": "46c1f1c590ab6d7409cb78e3dee33eb65a5ce60c631940a0e580b754239fc8f2"
+    },
+    {
+      "path": "extras/StreamMenuBar/StreamMenuBar/Assets.xcassets/AccentColor.colorset/Contents.json",
+      "sha256": "9af65086fa30b49252fae1a1225731691de794f7775af74d71befeb507d12b7c"
+    },
+    {
+      "path": "extras/StreamMenuBar/StreamMenuBar/Assets.xcassets/AppIcon.appiconset/Contents.json",
+      "sha256": "a93d059297d6108109bbdf46e8424cb53bb45d141a98de62122c9ab8ec8709b7"
+    },
+    {
+      "path": "extras/StreamMenuBar/StreamMenuBar/Assets.xcassets/Contents.json",
+      "sha256": "0fd49ba3c3585c709678e0046a821c3c60685ec7063720d30d3a3448be3a208b"
+    },
+    {
+      "path": "extras/StreamMenuBar/StreamMenuBar/Kick/KickAPIClient.swift",
+      "sha256": "1bd07016a7c283cf7ff1967f674a0188e144c1947ba7d49c5709a147281d9eab"
+    },
+    {
+      "path": "extras/StreamMenuBar/StreamMenuBar/Kick/KickAuthSession.swift",
+      "sha256": "ee0997fb7caf437ce493994b27eba9fcece797c0cf6b173835efcf7a54371933"
+    },
+    {
+      "path": "extras/StreamMenuBar/StreamMenuBar/Kick/KickOAuth.swift",
+      "sha256": "d7566937610069db445ba2edad6130ac25a4545e53f3a49e9535824bf386b4cf"
+    },
+    {
+      "path": "extras/StreamMenuBar/StreamMenuBar/Kick/KickStreamProvider.swift",
+      "sha256": "cb52a145243d61c0e0a9b66d8ee7f09236ac3c548dadcd348b4cafbf4a3b4d3b"
+    },
+    {
+      "path": "extras/StreamMenuBar/StreamMenuBar/Kick/LoopbackRedirectServer.swift",
+      "sha256": "c753c316500612bb558f9574f8bee40299c4a691cfe8b1c45ee59813aa5826c2"
+    },
+    {
+      "path": "extras/StreamMenuBar/StreamMenuBar/Model/AppModel.swift",
+      "sha256": "5bf1b72f51bd8a6544c449d5169c8b895153dd4100f78758a7ca68e5d1a8192e"
+    },
+    {
+      "path": "extras/StreamMenuBar/StreamMenuBar/OBS/OBSEncoderProvider.swift",
+      "sha256": "91e96b6220a51cce34fa34b3840614a35ae3788a028425dec5608226c1769597"
+    },
+    {
+      "path": "extras/StreamMenuBar/StreamMenuBar/OBS/OBSMessages.swift",
+      "sha256": "fd1e76ee3535b126aecc4af38e806ee36e53a843b3afd88f952806e39cc2b661"
+    },
+    {
+      "path": "extras/StreamMenuBar/StreamMenuBar/OBS/OBSWebSocketClient.swift",
+      "sha256": "7e1f00248047ae9642f7ba6d07b7dddf1b0a380100331a97d3badc969c466660"
+    },
+    {
+      "path": "extras/StreamMenuBar/StreamMenuBar/Provider/EncoderStatus.swift",
+      "sha256": "03fe412effe1bbf5fd2869ca50d259b0f16a5d4023ce1817056d288b7aeed6c1"
+    },
+    {
+      "path": "extras/StreamMenuBar/StreamMenuBar/Provider/StreamProviderError.swift",
+      "sha256": "9cd20a72f6dde7ac0c05125abf519a4c34e358bbe9292effe0d8703061f986e4"
+    },
+    {
+      "path": "extras/StreamMenuBar/StreamMenuBar/Provider/StreamSnapshot.swift",
+      "sha256": "957c7502b65bee55d249f26832c8460133ed1080a9dc77c8ffaa890577bc1adb"
+    },
+    {
+      "path": "extras/StreamMenuBar/StreamMenuBar/StreamMenuBarApp.swift",
+      "sha256": "2cbffec829251fa497b53ab12148fc25949589cc881dd9d92f72fe8a72558d06"
+    },
+    {
+      "path": "extras/StreamMenuBar/StreamMenuBar/Support/KeychainStore.swift",
+      "sha256": "50c2f9e03b6f54d8209d6fb8e4e0be238b6f20deef49b607ac6ddd94838fb846"
+    },
+    {
+      "path": "extras/StreamMenuBar/StreamMenuBar/Support/Log.swift",
+      "sha256": "bb71a9752bd5a8ca3f15ae546417c3dfe0fe1e969211d2f460150d9fa97ed95c"
+    },
+    {
+      "path": "extras/StreamMenuBar/StreamMenuBar/Support/Preferences.swift",
+      "sha256": "7124a89b59308f0f61c61ceb35ddff6d919e70df8a313c590641b643b7612a60"
+    },
+    {
+      "path": "extras/StreamMenuBar/StreamMenuBar/Views/MenuBarLabel.swift",
+      "sha256": "be9b6c0a560ef43e4183c54d56c29c5d5bf2ad28fe7cc67fdd46869a301ad6b9"
+    },
+    {
+      "path": "extras/StreamMenuBar/StreamMenuBar/Views/MenuContentView.swift",
+      "sha256": "c591e7e62470a276d38472dcdf1eceeb29a7b0fc41efc116278b1eb0588c9f24"
+    },
+    {
+      "path": "extras/StreamMenuBar/StreamMenuBar/Views/SettingsView.swift",
+      "sha256": "41237648ca4fef39bd4ed3262b790d9b381f5e865375b4f680cfc19abe817a3e"
+    },
+    {
+      "path": "extras/StreamMenuBar/StreamMenuBar.xcodeproj/project.pbxproj",
+      "sha256": "556154359f488602fbe219b061f66fa8a41f7f7a5be7a858730cdeb7427e96c9"
+    },
+    {
+      "path": "extras/StreamMenuBar/StreamMenuBar.xcodeproj/project.xcworkspace/contents.xcworkspacedata",
+      "sha256": "7f3b00b5c3fdb45242d7b87e1e5c4e25d1fa8129a16c94295ecc4e8ea2235c5f"
+    },
+    {
+      "path": "extras/StreamMenuBar/StreamMenuBar.xcodeproj/xcshareddata/xcschemes/StreamMenuBar.xcscheme",
+      "sha256": "94dae4aa54b2e88928a3901f15ddb8fe35aea2311af064098aa0ab803cfc59ab"
+    },
+    {
+      "path": "extras/StreamMenuBar/StreamMenuBarTests/AppModelEncoderTests.swift",
+      "sha256": "b1d688652bb0b3df7c2163ca8dae2699704b06ac7a71285025597f52e2657fc9"
+    },
+    {
+      "path": "extras/StreamMenuBar/StreamMenuBarTests/FakeOBSServer.swift",
+      "sha256": "212d0274251c2ada10a3874dc2b2fc83c60655bce080d548ff8049461355efda"
+    },
+    {
+      "path": "extras/StreamMenuBar/StreamMenuBarTests/KeychainStoreTests.swift",
+      "sha256": "5c29bd7fcfcd7544ed80fe96f2b3a08e5181b08b606cae3c7345c8c863e4288d"
+    },
+    {
+      "path": "extras/StreamMenuBar/StreamMenuBarTests/KickAuthSessionTests.swift",
+      "sha256": "39a6ed22712b872d14bc4fff2e3726897f815b01b338f94fe49a6d48d32eb335"
+    },
+    {
+      "path": "extras/StreamMenuBar/StreamMenuBarTests/KickDecodingTests.swift",
+      "sha256": "0f95bb73f317e1a46a049e6a24c7a13e976fddfd14e5bc0ef7122a0f002a6470"
+    },
+    {
+      "path": "extras/StreamMenuBar/StreamMenuBarTests/LoopbackRedirectServerTests.swift",
+      "sha256": "93ae20bd6116ff4edb953e0f1c17631c1edcd302b3471f5333c4e431427697df"
+    },
+    {
+      "path": "extras/StreamMenuBar/StreamMenuBarTests/OBSEncoderProviderTests.swift",
+      "sha256": "0a58c3cc0fbe21784024ee6e5b7ffe3abdeb231cba18fa75ffcb11959e56f949"
+    },
+    {
+      "path": "extras/StreamMenuBar/StreamMenuBarTests/OBSMessageTests.swift",
+      "sha256": "a4d3682556a2a7ffbd3b25f862856a9bba145c647862ceb61a6ac5041b5b4fdb"
+    },
+    {
+      "path": "extras/StreamMenuBar/StreamMenuBarTests/OBSWebSocketClientTests.swift",
+      "sha256": "3744907a29022a01717b9bc0f74fdab6dbf58118af808bba52458888a8ac45d6"
+    },
+    {
+      "path": "extras/StreamMenuBar/StreamMenuBarTests/PKCETests.swift",
+      "sha256": "079f156dc3564a49d313c6e62a0ec66369506dd1f724a7cee5dac457d0917f8f"
+    },
+    {
+      "path": "extras/StreamMenuBar/StreamMenuBarTests/StubURLProtocol.swift",
+      "sha256": "3ef15a90c6a7f0c96d09621ba47417bf334900c5694834abffeff7c27656db1a"
+    },
+    {
+      "path": "extras/StreamMenuBar/StreamMenuBarUITests/StreamMenuBarUITests.swift",
+      "sha256": "fbac76949334b2cb7b0045e5a2631a35f93976fdd9357fdac314d0bb092f63be"
+    },
+    {
+      "path": "extras/obs-theme/NIGHTRIDERCO.ovt",
+      "sha256": "ae30cf699b1116738bf501d4574c752fea72fce93bd7c9a7dcde79912440f7b1"
+    },
+    {
+      "path": "extras/panel-frames/Install panel frames.command",
+      "sha256": "0d507372ce032758f72cf8ba92c50137f881304d6c40f331fd5253a207d6a7dd"
+    },
+    {
+      "path": "extras/panel-frames/install.py",
+      "sha256": "8459edd294bf30337392fb72b589f3590284181a65f209941f3179d32b34f3fb"
+    },
+    {
+      "path": "extras/panel-frames/manifest.json",
+      "sha256": "0a8338bc64ff5cb56a5be637b679c2b1e7e52cdbe0e324556aa81db9fef3d8b9"
+    },
+    {
+      "path": "extras/panel-frames/nightrider-panel-frames.plugin.zip",
+      "sha256": "bf04aa04a6b641a3fd2a5041e1ade83de9723750c297e8c08d0007f71b06412a"
+    },
+    {
+      "path": "extras/panel-frames/source/build.py",
+      "sha256": "355514ed53d734a7d700bd66686b83d848f9f6615f4d32621af82180910b813a"
+    },
+    {
+      "path": "extras/panel-frames/source/src/obs-api.hpp",
+      "sha256": "da1f0e6bd43b802dfc6bad04a8fc6b7148b774282c4f2171df4077f4388c9495"
+    },
+    {
+      "path": "extras/panel-frames/source/src/panel-frames.cpp",
+      "sha256": "0f7bd962a7bb16fae7facdf2e9157e021c9e623d34853e515d74cf869bc06937"
+    },
+    {
+      "path": "extras/panel-frames/source/src/panel-frames.hpp",
+      "sha256": "2a088cb90b87658b5bcbc877504f0c9ec7f65eab91a7a5185048cf0bad5babe2"
+    },
+    {
+      "path": "extras/panel-frames/source/src/plugin.cpp",
+      "sha256": "b95d4fc9d1860ff264bbd64b4fdb2d206bcae12a474837042b3ad6c4ddee8240"
+    },
+    {
+      "path": "extras/panel-frames/source/src/runtime.hpp",
+      "sha256": "8c26a84913a670325bf8ca722cd1bf3d5dd7d3059c6e6087d7cd270ed2ef11a5"
+    },
+    {
+      "path": "extras/panel-frames/source/test-assets/theme-large.qss",
+      "sha256": "4af173f1c0cbbd0a20474a34d0d01d0374b2386af179758996e13f3c991eed58"
+    },
+    {
+      "path": "extras/panel-frames/source/test-assets/theme.qss",
+      "sha256": "c7e849a6c4c8b91051d924bf31ed6e694580352096292fc01dea0f77c78690fc"
+    },
+    {
+      "path": "extras/panel-frames/source/tests/COPYING",
+      "sha256": "8177f97513213526df2cf6184d8ff986c675afb514d4e68a404010521b880643"
+    },
+    {
+      "path": "extras/panel-frames/source/tests/PreviewProgramSizeObserver.cpp",
+      "sha256": "1bf1fefffaea157892f45050c2bdfde17d797c21f8f34b4aaf85b80fbb496127"
+    },
+    {
+      "path": "extras/panel-frames/source/tests/PreviewProgramSizeObserver.hpp",
+      "sha256": "a6069be707cf176ba83f6a4a4f5a6716d274e1d65acf2243600ec949ba641bc2"
+    },
+    {
+      "path": "extras/panel-frames/source/tests/native-fixture.cpp",
+      "sha256": "b0a42c71c445736413197858ff0bc30c224fcd207a1ea42a1caf8bfc5d9317f2"
+    },
+    {
+      "path": "extras/panel-frames/verification.json",
+      "sha256": "292312b002cca952bf7d7a08ede8f1c1ef10a662eff6b83dda7db572ed71686a"
+    },
+    {
+      "path": "install.py",
+      "sha256": "94a436f429101cf9f5d0ac0b2828c19339b843b52637b8631b7cc839db1a24cd"
+    },
+    {
+      "path": "payload/NIGHTRIDERCO/01_BRAND/nordic-landscape.png",
+      "sha256": "554bccab1d98a6f5772233c7fee041913380682c2eddec2679cb7c780679171e"
+    },
+    {
+      "path": "payload/NIGHTRIDERCO/01_BRAND/skadi-master.png",
+      "sha256": "106e3c8c567203f04ab2610c6be8648b686f4a380a57d84771b2b1dd54ae11a1"
+    },
+    {
+      "path": "payload/NIGHTRIDERCO/01_BRAND/vectors/manifest.json",
+      "sha256": "560421ad56b2748a8b600a47b2b59435ff3eddebd539c19f4eaa576d4d6a6aff"
+    },
+    {
+      "path": "payload/NIGHTRIDERCO/01_BRAND/vectors/nightriderco_emblem_dark.svg",
+      "sha256": "e6c43d0e6c0b2d6d46c2f634cc61bfe64e0f64ceaa042c6c871db32db3c9fdfd"
+    },
+    {
+      "path": "payload/NIGHTRIDERCO/01_BRAND/vectors/nightriderco_emblem_dark_512x512.png",
+      "sha256": "2e89ca80714f6fc5d91ebc7c1c916c3a7675f7f1c2b3c7f134edb1261aaa5251"
+    },
+    {
+      "path": "payload/NIGHTRIDERCO/01_BRAND/vectors/nightriderco_emblem_ice.svg",
+      "sha256": "71fc4e89b0a5c5ed5b6946288a5b0b7155ad3c1e340536e485434ac8f99eca83"
+    },
+    {
+      "path": "payload/NIGHTRIDERCO/01_BRAND/vectors/nightriderco_emblem_ice_512x512.png",
+      "sha256": "5039b8099a0dadf910e8327ccf75a13e44ff671b3b8a597a242b002c2bcd4de9"
+    },
+    {
+      "path": "payload/NIGHTRIDERCO/01_BRAND/vectors/nightriderco_emblem_white.svg",
+      "sha256": "8225804e00faf86acc166acc431d1b8cc9fe5755c8e7dc273c46f519b708d671"
+    },
+    {
+      "path": "payload/NIGHTRIDERCO/01_BRAND/vectors/nightriderco_emblem_white_512x512.png",
+      "sha256": "88ed8c247d7b265576f1e938e0f9d2ffb28e3cfe834ce312a0935f4b845984bc"
+    },
+    {
+      "path": "payload/NIGHTRIDERCO/01_BRAND/vectors/nightriderco_wordmark_dark.svg",
+      "sha256": "841e998c581642f69a4fed9cff0855b923243ff8d5719ba17ced42172e7c94a4"
+    },
+    {
+      "path": "payload/NIGHTRIDERCO/01_BRAND/vectors/nightriderco_wordmark_dark_1280x340.png",
+      "sha256": "699c1a098fb287f39fdf0b07dde942a7db3729cc4cdd8fcbe9983cce927d4727"
+    },
+    {
+      "path": "payload/NIGHTRIDERCO/01_BRAND/vectors/nightriderco_wordmark_dark_2560x680.png",
+      "sha256": "ec1a4afed15215a96728207637998137b6c0c12f1d98385b5d3ff85ca5475f15"
+    },
+    {
+      "path": "payload/NIGHTRIDERCO/01_BRAND/vectors/nightriderco_wordmark_ice.svg",
+      "sha256": "dd996a26d266d060851bd5ac0c9fd13a96b1ab0f85a3247063474eb4e8d48b35"
+    },
+    {
+      "path": "payload/NIGHTRIDERCO/01_BRAND/vectors/nightriderco_wordmark_ice_1280x340.png",
+      "sha256": "2d71ff91401244d9ba8175b12c1ef9afb41e8874bbd2013ed431ac47cdb7b75d"
+    },
+    {
+      "path": "payload/NIGHTRIDERCO/01_BRAND/vectors/nightriderco_wordmark_ice_2560x680.png",
+      "sha256": "3d82a755e02d68d6f0e756e84700a22c8bf767171c8bb88cdc76221bc27ee0fa"
+    },
+    {
+      "path": "payload/NIGHTRIDERCO/01_BRAND/vectors/nightriderco_wordmark_white.svg",
+      "sha256": "ca021bfa98fd7403e3ba8dd128e19b88816aa40c4a0efa651818d2bed16d03ae"
+    },
+    {
+      "path": "payload/NIGHTRIDERCO/01_BRAND/vectors/nightriderco_wordmark_white_1280x340.png",
+      "sha256": "e742786f92b9ea0115b29aa823bfd40f4b52f8e04f7133ca1cdb391a3fe9f30d"
+    },
+    {
+      "path": "payload/NIGHTRIDERCO/01_BRAND/vectors/nightriderco_wordmark_white_2560x680.png",
+      "sha256": "c61342475854ec1e01af712327f69a1f819b4a87d439ae5be479b8950fafc2df"
+    },
+    {
+      "path": "payload/NIGHTRIDERCO/02_CHANNEL/avatar-1024.png",
+      "sha256": "f23e3e289071dca654246330b918edc0b2718231f29df278b42a5e177628f0e1"
+    },
+    {
+      "path": "payload/NIGHTRIDERCO/02_CHANNEL/avatar-1024.svg",
+      "sha256": "839215e08bdc0cd9356c3505c1d83ad012bfafb2d5ec6712c13c93944450587f"
+    },
+    {
+      "path": "payload/NIGHTRIDERCO/02_CHANNEL/avatar-512.png",
+      "sha256": "d4ee98434d2b7befe740503e2843616fee404f795eff7eb9b14eecab31640562"
+    },
+    {
+      "path": "payload/NIGHTRIDERCO/02_CHANNEL/channel-banner-2560x1400.jpg",
+      "sha256": "5962a9c8618e447dfa8cf20ff1dd276ad62de59eef5eefb7477a957e07588f2f"
+    },
+    {
+      "path": "payload/NIGHTRIDERCO/02_CHANNEL/channel-banner-2560x1400.svg",
+      "sha256": "7a79e04cda9c9511ce188bef0c0b437040427a3cddae7e7087f2a47773f26cae"
+    },
+    {
+      "path": "payload/NIGHTRIDERCO/02_CHANNEL/layouts_manifest.json",
+      "sha256": "61ebc623644c524eb3eb1e7d64da42d0cfb9ac882263f198c489312815ea5e0a"
+    },
+    {
+      "path": "payload/NIGHTRIDERCO/02_CHANNEL/offline-banner-1920x1080.jpg",
+      "sha256": "00d521c1ead0d91739f280c6b7c81926d7fec3048b3e791fc2fe6b63a739349a"
+    },
+    {
+      "path": "payload/NIGHTRIDERCO/02_CHANNEL/offline-banner-1920x1080.svg",
+      "sha256": "caf2684f0c934e1041de9d210329ab341a1b0c8b38ce9e74007f118808b9aead"
+    },
+    {
+      "path": "payload/NIGHTRIDERCO/02_CHANNEL/panels/01_about_320x80.png",
+      "sha256": "c533531d3c4ab6e5fe4ed6f7d8f0d40a4e2bf99680f642428a4b17e7d6983c8c"
+    },
+    {
+      "path": "payload/NIGHTRIDERCO/02_CHANNEL/panels/01_about_640x160.png",
+      "sha256": "2aa9d5aa110b5e066beab7bc635ca81c93ba12d7092ce414f59887592fb0e1a4"
+    },
+    {
+      "path": "payload/NIGHTRIDERCO/02_CHANNEL/panels/01_about_640x160.svg",
+      "sha256": "4c49a4e9c662ce6ad5321afba522520cf943c3c1ba664d6d5f0d25eaaea5a31b"
+    },
+    {
+      "path": "payload/NIGHTRIDERCO/02_CHANNEL/panels/02_schedule_320x80.png",
+      "sha256": "b81a0be8aff8c959a3192ebc61acc033bea487abf2c2dfab1cf824bd124c40ff"
+    },
+    {
+      "path": "payload/NIGHTRIDERCO/02_CHANNEL/panels/02_schedule_640x160.png",
+      "sha256": "bbb07d0bbda839950241999b217db8f574531f6f75bd63abf2b41a8ff4f0a41e"
+    },
+    {
+      "path": "payload/NIGHTRIDERCO/02_CHANNEL/panels/02_schedule_640x160.svg",
+      "sha256": "aa4bd903a2b6ddede3498a8835e97c1777faa93bf7d8ca422fe523f0fd47bcb2"
+    },
+    {
+      "path": "payload/NIGHTRIDERCO/02_CHANNEL/panels/03_rules_320x80.png",
+      "sha256": "79c1a5f04643c7a4e6c423c9c0ef829781e8b887557533d55e088d8e866c2b2e"
+    },
+    {
+      "path": "payload/NIGHTRIDERCO/02_CHANNEL/panels/03_rules_640x160.png",
+      "sha256": "3760de7e5b8ef3dab693116702ef54a92353c65a01465b04bbfca056bbf758d9"
+    },
+    {
+      "path": "payload/NIGHTRIDERCO/02_CHANNEL/panels/03_rules_640x160.svg",
+      "sha256": "fec43f83073808a5e55fa839c71c56d9fe4d5f70356e9f4dd6fb669047527d5c"
+    },
+    {
+      "path": "payload/NIGHTRIDERCO/02_CHANNEL/panels/04_setup_320x80.png",
+      "sha256": "719e87ef3a430d6d68a6f0e1d8d7f356ac094fc89a7c46942bfa53e0773da557"
+    },
+    {
+      "path": "payload/NIGHTRIDERCO/02_CHANNEL/panels/04_setup_640x160.png",
+      "sha256": "5614570b72527d944627dd3787983f139ceec7d4be38dc679565f322edfe9e03"
+    },
+    {
+      "path": "payload/NIGHTRIDERCO/02_CHANNEL/panels/04_setup_640x160.svg",
+      "sha256": "664fac4635ed4966fbd5d0e0ca764794ac099e76c6a82b7640777fa96737f5a6"
+    },
+    {
+      "path": "payload/NIGHTRIDERCO/02_CHANNEL/panels/05_simracing_320x80.png",
+      "sha256": "6e618e228ca66679119271a655b663daf5ac09ea9c12e5234db3bf06bd0f5131"
+    },
+    {
+      "path": "payload/NIGHTRIDERCO/02_CHANNEL/panels/05_simracing_640x160.png",
+      "sha256": "82c44252eec5426c0991833fadb47631acd167e96eee078ceaf9c2a84e12a062"
+    },
+    {
+      "path": "payload/NIGHTRIDERCO/02_CHANNEL/panels/05_simracing_640x160.svg",
+      "sha256": "32f093796ce49db51052ab54aef519a5d4d9d3188e928f4aa14c1cae4d20b95e"
+    },
+    {
+      "path": "payload/NIGHTRIDERCO/02_CHANNEL/panels/06_code_ai_320x80.png",
+      "sha256": "e643a94144f1f5f4765969269325f5214da6afe7f37fb9e243f49e16c52cab75"
+    },
+    {
+      "path": "payload/NIGHTRIDERCO/02_CHANNEL/panels/06_code_ai_640x160.png",
+      "sha256": "6fc24421deecc99f50ae0cd7feb9ae5ca1c187ecb42712d3fdd0e14971700ee6"
+    },
+    {
+      "path": "payload/NIGHTRIDERCO/02_CHANNEL/panels/06_code_ai_640x160.svg",
+      "sha256": "ae419d4c2d1845e6aca5adf3592a9a92448f48a8710aee5c031a5f6fabe6a093"
+    },
+    {
+      "path": "payload/NIGHTRIDERCO/02_CHANNEL/panels/07_workshop_320x80.png",
+      "sha256": "0ef80cb8b8c51bac967b5cf0065931c09bb54ddd0c510a81ab825415a231b7b3"
+    },
+    {
+      "path": "payload/NIGHTRIDERCO/02_CHANNEL/panels/07_workshop_640x160.png",
+      "sha256": "2400facee6277c94b1f61d6a39321fe52a025db2119c42906517cf384bd23a0c"
+    },
+    {
+      "path": "payload/NIGHTRIDERCO/02_CHANNEL/panels/07_workshop_640x160.svg",
+      "sha256": "e1a30103ab7d2800ba2678f3440b2fa2f2aee371c5f535522cd2085738b8367f"
+    },
+    {
+      "path": "payload/NIGHTRIDERCO/02_CHANNEL/panels/08_irl_320x80.png",
+      "sha256": "102cdf3b7a257a12b28cffe7cccfb2f18482a71287444b5b1403f1ba983e6aee"
+    },
+    {
+      "path": "payload/NIGHTRIDERCO/02_CHANNEL/panels/08_irl_640x160.png",
+      "sha256": "5fe5d4c9e2c0238005a5ecd2ac42f8f24a4faafb892b8cbddb4a1f9b8d84bb3c"
+    },
+    {
+      "path": "payload/NIGHTRIDERCO/02_CHANNEL/panels/08_irl_640x160.svg",
+      "sha256": "b58517dc659b4057856c05735c36abb439074608fed5b4a1e1a872072fde6521"
+    },
+    {
+      "path": "payload/NIGHTRIDERCO/02_CHANNEL/panels/09_socials_320x80.png",
+      "sha256": "5edc1b5b4f39cc8ee5ea16cb7d4116b8d6c4df18907f7a40d00e1257c9f00d8d"
+    },
+    {
+      "path": "payload/NIGHTRIDERCO/02_CHANNEL/panels/09_socials_640x160.png",
+      "sha256": "5fecf673cb4f936b98b186feb53d2b63471f3360885dfc18059e886b0977d3d8"
+    },
+    {
+      "path": "payload/NIGHTRIDERCO/02_CHANNEL/panels/09_socials_640x160.svg",
+      "sha256": "8b8b8cf5a1a7a6118f23e496b5984a605eadf3a3d241fbc1d23947b2c085f3d8"
+    },
+    {
+      "path": "payload/NIGHTRIDERCO/02_CHANNEL/panels/10_support_320x80.png",
+      "sha256": "fe245464901eab7c65748c47a0444c1dc0c45eab46e2774f210e3198029d8d59"
+    },
+    {
+      "path": "payload/NIGHTRIDERCO/02_CHANNEL/panels/10_support_640x160.png",
+      "sha256": "811163ffbcdc1211a9da0c64321feebcab5d407f91ea91e0d0a89a34af21331c"
+    },
+    {
+      "path": "payload/NIGHTRIDERCO/02_CHANNEL/panels/10_support_640x160.svg",
+      "sha256": "389ee11e569ad4d6519c534141722dadb8ced058d53d8e723bd704abe8812bf0"
+    },
+    {
+      "path": "payload/NIGHTRIDERCO/02_CHANNEL/panels/11_faq_320x80.png",
+      "sha256": "1b6589b7c0b961e048033186c3386f81b4d686ac2d12577f2b1eb409cbeca29b"
+    },
+    {
+      "path": "payload/NIGHTRIDERCO/02_CHANNEL/panels/11_faq_640x160.png",
+      "sha256": "51a6350a17fe79594dd0ac57ee78d458ee5a94eeeafd667e085e0ecbf2ae2aec"
+    },
+    {
+      "path": "payload/NIGHTRIDERCO/02_CHANNEL/panels/11_faq_640x160.svg",
+      "sha256": "d5503addc2963e2e435f1945ca6cb938d2898f6f31a971aac1540c60ea9f9ab8"
+    },
+    {
+      "path": "payload/NIGHTRIDERCO/02_CHANNEL/panels/12_commands_320x80.png",
+      "sha256": "778835c3ef9f53cc2ad024e0aaf0742c2034731016769d04384b5f09e42cacde"
+    },
+    {
+      "path": "payload/NIGHTRIDERCO/02_CHANNEL/panels/12_commands_640x160.png",
+      "sha256": "80ab3abe61ff0039fea6a6d0bc3293e653e4fb06ac3f8a8d2b08edc1472917dc"
+    },
+    {
+      "path": "payload/NIGHTRIDERCO/02_CHANNEL/panels/12_commands_640x160.svg",
+      "sha256": "31a6bd5ec6755b51caeadc25c4345ca0003c2ed2a5ef141942fe5680f68d6e8d"
+    },
+    {
+      "path": "payload/NIGHTRIDERCO/02_CHANNEL/panels/manifest.json",
+      "sha256": "a327cf6c38b037e0338effaeea3689b9e40c57957f3595e35dc178dec0409677"
+    },
+    {
+      "path": "payload/NIGHTRIDERCO/03_OBS/alert-cards/compact/follow-520x128.png",
+      "sha256": "87861a45d9f4ca19fc9ba1f12300ef95f6f90447c54258f62e9153b3389e934b"
+    },
+    {
+      "path": "payload/NIGHTRIDERCO/03_OBS/alert-cards/compact/follow-520x128.svg",
+      "sha256": "a495a97423433e013cf93f788b5ee1938afe4efb0753fcde0dcc8ce1cb9acc2a"
+    },
+    {
+      "path": "payload/NIGHTRIDERCO/03_OBS/alert-cards/compact/gift-520x128.png",
+      "sha256": "ed38644e13d390bdadfefa6baa4c935d684ceeecdef04c25ac18c9753b48ab54"
+    },
+    {
+      "path": "payload/NIGHTRIDERCO/03_OBS/alert-cards/compact/gift-520x128.svg",
+      "sha256": "ebdfc5978d46a4e4582233088557e95b6a5f79ad54711f8687cf678a42c1d65b"
+    },
+    {
+      "path": "payload/NIGHTRIDERCO/03_OBS/alert-cards/compact/manifest.json",
+      "sha256": "8fb52c111f50b29b2a36fb53a708ac74d9e2549917eb5f3675d4c73d4bbddb17"
+    },
+    {
+      "path": "payload/NIGHTRIDERCO/03_OBS/alert-cards/compact/raid-520x128.png",
+      "sha256": "0a0c12b7798dcdecaa2fa2c9fbc6d3ca2a6527f587c33423c6f8cf50f671f46a"
+    },
+    {
+      "path": "payload/NIGHTRIDERCO/03_OBS/alert-cards/compact/raid-520x128.svg",
+      "sha256": "84c8c42f2f8d04f832cafa46a049640f3380d259174e27bacfd6c17fe5d122d4"
+    },
+    {
+      "path": "payload/NIGHTRIDERCO/03_OBS/alert-cards/compact/sub-520x128.png",
+      "sha256": "b4638ba0ae143e2b900bd265367b4683a3bebcff8f541113c3f86d9ebe3fbf39"
+    },
+    {
+      "path": "payload/NIGHTRIDERCO/03_OBS/alert-cards/compact/sub-520x128.svg",
+      "sha256": "fdd43dc94842f3bed0b1cb125d901d903ca65fc2a466dcad5ad07a1c1aba5dfc"
+    },
+    {
+      "path": "payload/NIGHTRIDERCO/03_OBS/alert-cards/compact/tip-520x128.png",
+      "sha256": "3760ab1ecd87faac54f27d1651859e1a42cc71fca0ce19ab2349aa9fb05d12ba"
+    },
+    {
+      "path": "payload/NIGHTRIDERCO/03_OBS/alert-cards/compact/tip-520x128.svg",
+      "sha256": "4b930382ef4892e76cc323ddd9508822465e6cf4c7e364cc9dbb966c053ffc6c"
+    },
+    {
+      "path": "payload/NIGHTRIDERCO/03_OBS/alert-cards/follow-800x240.png",
+      "sha256": "d4003ccc70f4f059432788ee59757b97fe21a8968feeb55dff6f6d14b3b547a3"
+    },
+    {
+      "path": "payload/NIGHTRIDERCO/03_OBS/alert-cards/follow-800x240.svg",
+      "sha256": "393420bc413c5c26364997fe0cf460128d8819ea2fe444933d789f17f309028f"
+    },
+    {
+      "path": "payload/NIGHTRIDERCO/03_OBS/alert-cards/gift-800x240.png",
+      "sha256": "0d255c853136784b4245af91d630fd65c4a5a14ad2232ad04cc7da7d0ba91c23"
+    },
+    {
+      "path": "payload/NIGHTRIDERCO/03_OBS/alert-cards/gift-800x240.svg",
+      "sha256": "cc98efb6694729df0aaad1ac9a5af6d59bd3147b316abe6fa81a00121051c22d"
+    },
+    {
+      "path": "payload/NIGHTRIDERCO/03_OBS/alert-cards/manifest.json",
+      "sha256": "aea6c943aec63d8dfc752c3b9e1632645e458d83dbc886b70d7bdf1c4885ab98"
+    },
+    {
+      "path": "payload/NIGHTRIDERCO/03_OBS/alert-cards/raid-800x240.png",
+      "sha256": "d31e9a084a92d813f102b3c7ff4c03ef2b9eca10178af0e9db0e34543d107b6d"
+    },
+    {
+      "path": "payload/NIGHTRIDERCO/03_OBS/alert-cards/raid-800x240.svg",
+      "sha256": "ac74f157010dafeb4a97ec08db37100b83d3d245188a7b5426462a1863da7fbb"
+    },
+    {
+      "path": "payload/NIGHTRIDERCO/03_OBS/alert-cards/sub-800x240.png",
+      "sha256": "4c07f62b98111aa98445651da83d089f3074c3a8f7079d3ecaa70a31a5e3092c"
+    },
+    {
+      "path": "payload/NIGHTRIDERCO/03_OBS/alert-cards/sub-800x240.svg",
+      "sha256": "90f8ecade053d34ab4551d46e08a0316a80a273b7ee787af796e2dfa71f54ed1"
+    },
+    {
+      "path": "payload/NIGHTRIDERCO/03_OBS/alert-cards/tip-800x240.png",
+      "sha256": "9c7c577fc471de818d3dc734c4345e4dc9dcba15d85da5d614804378cd0a83cf"
+    },
+    {
+      "path": "payload/NIGHTRIDERCO/03_OBS/alert-cards/tip-800x240.svg",
+      "sha256": "66ab54e2454c6d100d81d0cc5668384309fc5c2940caf00ccd907428782b934d"
+    },
+    {
+      "path": "payload/NIGHTRIDERCO/03_OBS/alerts.html",
+      "sha256": "571a92a8b5e4f52632282bcb94f6aa9dbae27b6d98beaeb2413ac49d35e91207"
+    },
+    {
+      "path": "payload/NIGHTRIDERCO/03_OBS/brb.html",
+      "sha256": "9f677e4ca487174962048c6ffb4888a5692684347d7b0ab51c725a60c73f36d4"
+    },
+    {
+      "path": "payload/NIGHTRIDERCO/03_OBS/config.js",
+      "sha256": "aaa7206ba0bfe7aa40916062fbced3239c2d594971edec0bdb92c6685d527545"
+    },
+    {
+      "path": "payload/NIGHTRIDERCO/03_OBS/display-layouts/display-layouts.css",
+      "sha256": "8eb7b7f0cb0b5808af638de90e86cfd7c99e3f911ee20ab9d1cab0b3b09bf4f5"
+    },
+    {
+      "path": "payload/NIGHTRIDERCO/03_OBS/display-layouts/display-layouts.js",
+      "sha256": "2b370f3fa2bdf9a320350059141e01c03f5038fbe9e2aea5ee006f14536e3453"
+    },
+    {
+      "path": "payload/NIGHTRIDERCO/03_OBS/display-layouts/macbook-full-display-chat-es.png",
+      "sha256": "c0d1f68a62fdf38cd7aaa386401d70adedbe0bd20794e991cbf105cde258a186"
+    },
+    {
+      "path": "payload/NIGHTRIDERCO/03_OBS/display-layouts/macbook-full-display-chat-es.svg",
+      "sha256": "44b8a2cfb3e532356faf565d7018b899e5b7ea33a2c6c595270998498303f1bc"
+    },
+    {
+      "path": "payload/NIGHTRIDERCO/03_OBS/display-layouts/macbook-full-display-chat.html",
+      "sha256": "c37068427515e863228cc5febcf98133b4949a261f7b9e66b3b8e4d20ffa86d0"
+    },
+    {
+      "path": "payload/NIGHTRIDERCO/03_OBS/display-layouts/macbook-full-display-chat.png",
+      "sha256": "fac82b51d78d92439019dd0c9884ab14e5ec358a78c8d6c25f98c9f1bf5854e2"
+    },
+    {
+      "path": "payload/NIGHTRIDERCO/03_OBS/display-layouts/macbook-full-display-chat.svg",
+      "sha256": "05c280c2d58da7834a42724f8694fddee76b6ebb52af6c63af35419d43d2d09d"
+    },
+    {
+      "path": "payload/NIGHTRIDERCO/03_OBS/display-layouts/macbook-full-display-es.png",
+      "sha256": "98f0636f527991ee73a188fc747fd7c64bdf8f2a3d79527569d14c56c5c83fa8"
+    },
+    {
+      "path": "payload/NIGHTRIDERCO/03_OBS/display-layouts/macbook-full-display-es.svg",
+      "sha256": "197f9333d98c058cee617b4e1c73b9180386250653ea2f8399ac9e457bd859ba"
+    },
+    {
+      "path": "payload/NIGHTRIDERCO/03_OBS/display-layouts/macbook-full-display.html",
+      "sha256": "ad1006e5b927f811e8bede6dc7a19dae9105dd685b2894dc099f4f5e3907befe"
+    },
+    {
+      "path": "payload/NIGHTRIDERCO/03_OBS/display-layouts/macbook-full-display.png",
+      "sha256": "92682bcdef85fb8c6d4570be4bf7508788426759d084c320d16685ea4b5d14f7"
+    },
+    {
+      "path": "payload/NIGHTRIDERCO/03_OBS/display-layouts/macbook-full-display.svg",
+      "sha256": "80233a519b9439c96f39caa120d22b616439d67e965f6e261d8c33b9a983c0d8"
+    },
+    {
+      "path": "payload/NIGHTRIDERCO/03_OBS/display-layouts/manifest.json",
+      "sha256": "6dfb49751e4d496b85979075ea2f4c48c09e7589837aca08dc7a07eb8e375c9a"
+    },
+    {
+      "path": "payload/NIGHTRIDERCO/03_OBS/display-layouts/studio-display-es.png",
+      "sha256": "34bfc6cd68c6f5e39ff50370d097170c5bc2a840b5e44baf9129ffc033c262c0"
+    },
+    {
+      "path": "payload/NIGHTRIDERCO/03_OBS/display-layouts/studio-display-es.svg",
+      "sha256": "c8707708d3a48eb4ba01b4b98e22252b40d129f66a789f5cc25c5e1113520f32"
+    },
+    {
+      "path": "payload/NIGHTRIDERCO/03_OBS/display-layouts/studio-display.html",
+      "sha256": "2e5fa73f1df68cc38bd3a0e208915c639862c1f9fe82994bf8590dd6516ead5f"
+    },
+    {
+      "path": "payload/NIGHTRIDERCO/03_OBS/display-layouts/studio-display.png",
+      "sha256": "ecc6749200322a609055eeb694ad11008229e1cbd65eb46b0efc1777c1c90675"
+    },
+    {
+      "path": "payload/NIGHTRIDERCO/03_OBS/display-layouts/studio-display.svg",
+      "sha256": "9a612771f4f7aac0c677c977143248e6b3bb1a6bee092d0a35acb24ed42fcc6b"
+    },
+    {
+      "path": "payload/NIGHTRIDERCO/03_OBS/ending.html",
+      "sha256": "fd9264735b90fead9ee050b2b29386bf49fa6aa2c8b8b65a372269061b1891d5"
+    },
+    {
+      "path": "payload/NIGHTRIDERCO/03_OBS/gameplay.html",
+      "sha256": "1991174856df84f49f2d727a4a1fe4a10e5291201f1efa4f40c776348bcde793"
+    },
+    {
+      "path": "payload/NIGHTRIDERCO/03_OBS/just-chatting.html",
+      "sha256": "e678826f332f115482c57dce114bc45de3cd058d6451a2764a036fa0192ef664"
+    },
+    {
+      "path": "payload/NIGHTRIDERCO/03_OBS/language-bar.html",
+      "sha256": "200e35f9287e94ff6fb33ad517edf75314ede8c6d484c4a959a6b3366388a3a3"
+    },
+    {
+      "path": "payload/NIGHTRIDERCO/03_OBS/obs.css",
+      "sha256": "cb56b06e8c5d8ed81588075fa90cc8a839110d3cb5ad0a703a7e6c973acdb6bb"
+    },
+    {
+      "path": "payload/NIGHTRIDERCO/03_OBS/obs.js",
+      "sha256": "84008dfd35e7f72cd529fd14ba516ef6331542cbb5db630e8243d9a167aae573"
+    },
+    {
+      "path": "payload/NIGHTRIDERCO/03_OBS/starting-soon.html",
+      "sha256": "fc7a1d3ac519c4b062e89d425cfde62aeea4e5f985c519a4d8e11995f665e7e4"
+    },
+    {
+      "path": "payload/NIGHTRIDERCO/03_OBS/static/brb.png",
+      "sha256": "8a8a26e1d5eb3dbff3a0e50fca97434f39c8336ab7be50438efef186497ff29a"
+    },
+    {
+      "path": "payload/NIGHTRIDERCO/03_OBS/static/brb.svg",
+      "sha256": "36e09e022257eb5976960953c75b6dd4c008d15ae98079c4c83145a0ff6c14e4"
+    },
+    {
+      "path": "payload/NIGHTRIDERCO/03_OBS/static/ending.png",
+      "sha256": "25f11ef4511bceea868036675843121fc008fdaa67afa00102f1276f1bd9c610"
+    },
+    {
+      "path": "payload/NIGHTRIDERCO/03_OBS/static/ending.svg",
+      "sha256": "3b9bcc73e03a4bffc7a5adeb55c4a2d06249a5d4c8b657926bdc75be9258b504"
+    },
+    {
+      "path": "payload/NIGHTRIDERCO/03_OBS/static/gameplay-overlay.png",
+      "sha256": "92c989c0afe3db613fac0cc034962bf26f8972185d22bece1dbb49697e8989c3"
+    },
+    {
+      "path": "payload/NIGHTRIDERCO/03_OBS/static/gameplay-overlay.svg",
+      "sha256": "eaf5e6cc59a55da4e00a5882aaf0814f5f47c66d871c350b7fe21e040b198ab2"
+    },
+    {
+      "path": "payload/NIGHTRIDERCO/03_OBS/static/just-chatting-overlay.png",
+      "sha256": "79cb938fc49782d58e7aa17910d612dbf57829f8f0ec8cc718fd02d5387eb8f5"
+    },
+    {
+      "path": "payload/NIGHTRIDERCO/03_OBS/static/just-chatting-overlay.svg",
+      "sha256": "0ebc1e97b76fb4cd8732f4ddda37b1b7d24190fbea23e3eb031c1dfa23fc48a5"
+    },
+    {
+      "path": "payload/NIGHTRIDERCO/03_OBS/static/manifest.json",
+      "sha256": "b9fab642ccd1ad1674bd5a86faba7e53dada842fbdc316b1d2cdc39f1bad5999"
+    },
+    {
+      "path": "payload/NIGHTRIDERCO/03_OBS/static/starting-soon.png",
+      "sha256": "4e16f1bc85676ecebec2c7b7da00688a7de418e676e323aa39b101ecc862b2b0"
+    },
+    {
+      "path": "payload/NIGHTRIDERCO/03_OBS/static/starting-soon.svg",
+      "sha256": "6b6ef109e25351fa8b67e0460701d68aaace865f42e788260ebb3c3db4de49f5"
+    },
+    {
+      "path": "payload/NIGHTRIDERCO/03_OBS/static/webcam-frame-560x315.png",
+      "sha256": "9c9235a3d2012279722a90a36d61b1b6b84c043101b1cfe101421284988b6fde"
+    },
+    {
+      "path": "payload/NIGHTRIDERCO/03_OBS/static/webcam-frame-560x315.svg",
+      "sha256": "84dc728f1974bf767a8772f046bf18fd7de10320a84ab886272aa34ed7854cd7"
+    },
+    {
+      "path": "payload/NIGHTRIDERCO/03_OBS/static/workshop-overlay.png",
+      "sha256": "1aab7e021fb373b205881ea130e29a8696f54807b2172f3630b2630abb6411b3"
+    },
+    {
+      "path": "payload/NIGHTRIDERCO/03_OBS/static/workshop-overlay.svg",
+      "sha256": "5b1a5facfd1981dd07248c0df9063adb2b9b2b8775eac04336dba208565ea646"
+    },
+    {
+      "path": "payload/NIGHTRIDERCO/03_OBS/stinger-clean.css",
+      "sha256": "6099be49d16daf0e47cdfdbbac7f3e805822975d6256fdd450414c68c592304e"
+    },
+    {
+      "path": "payload/NIGHTRIDERCO/03_OBS/stinger-clean.js",
+      "sha256": "51b96241014a954dbbdafbf12b90ec9182815b9da98cf38dee3e21a447e28fd0"
+    },
+    {
+      "path": "payload/NIGHTRIDERCO/03_OBS/stinger.html",
+      "sha256": "5d60b5a8d07fd82fed13fafdb6d61e7bffff619d8d801382be055d162a55265e"
+    },
+    {
+      "path": "payload/NIGHTRIDERCO/03_OBS/transitions/nightriderco-ice-wipe-QHD-60fps-alpha.mov",
+      "sha256": "8ea360afe02d7a8f1f8eae746d2eb6ddf6fb054d3b36b251eb5d967bb3534ec3"
+    },
+    {
+      "path": "payload/NIGHTRIDERCO/03_OBS/transitions/source60fps/mux_png_mov.py",
+      "sha256": "6818ee33ef63df0998c24aeb856842400a102275194848e05a9ca944005fa059"
+    },
+    {
+      "path": "payload/NIGHTRIDERCO/03_OBS/transitions/source60fps/render_frames.swift",
+      "sha256": "9998f0f8e63c45c5d9ad0a65d7d72185c73ad6076cf437d0a60bf506fc3322fd"
+    },
+    {
+      "path": "payload/NIGHTRIDERCO/03_OBS/workshop.html",
+      "sha256": "ce1c54eb3d5f1b6e5fcb7b4261fb8ed1ab0d7926ea9d03a4b055a0441cae829e"
+    },
+    {
+      "path": "payload/NIGHTRIDERCO/04_SOCIAL/live-announcement-1080x1080.png",
+      "sha256": "fd29936377ccf8908c70211deeb42aa48461d598b7f5157ddc6e6c907792e96a"
+    },
+    {
+      "path": "payload/NIGHTRIDERCO/04_SOCIAL/live-announcement-1080x1080.svg",
+      "sha256": "958bd003dd0d7c1a5e9cb22c8a39f97f045eecf38e9343358676fd69122a5674"
+    },
+    {
+      "path": "payload/NIGHTRIDERCO/04_SOCIAL/manifest.json",
+      "sha256": "998effd1063cf6a34586d570fff0221305f06853d56f5ff75b40aae36f6f2a70"
+    },
+    {
+      "path": "payload/NIGHTRIDERCO/04_SOCIAL/schedule-1080x1350.png",
+      "sha256": "bf0d5841d83bfd149dceccb345786e3eb616e76573eb3bdc60522e7201b5ba3b"
+    },
+    {
+      "path": "payload/NIGHTRIDERCO/04_SOCIAL/schedule-1080x1350.svg",
+      "sha256": "0269505ae8b3c9e4b1280cf5c25f604416af066eb9aff3a46731dca195b384b3"
+    },
+    {
+      "path": "payload/NIGHTRIDERCO/04_SOCIAL/thumbnail-1920x1080.png",
+      "sha256": "ac3e560ee7bab5cc75e6e7da10139f8cc08dfefcfa1b51dd8bae567ce5ed1427"
+    },
+    {
+      "path": "payload/NIGHTRIDERCO/04_SOCIAL/thumbnail-1920x1080.svg",
+      "sha256": "ea873fead950d439e8f83a02102946b32f08e7993f66963aa241c65bd464b464"
+    },
+    {
+      "path": "payload/NIGHTRIDERCO/04_SOCIAL/vertical-announcement-1080x1920.png",
+      "sha256": "d109ace20753c94b353a0418133b921c9469d735a41f122e33cebc5998c2cc15"
+    },
+    {
+      "path": "payload/NIGHTRIDERCO/04_SOCIAL/vertical-announcement-1080x1920.svg",
+      "sha256": "8e9724a9380e0ed54be72aab96c930b66bff4d0b41a93eb98857424f4eda7bcb"
+    },
+    {
+      "path": "payload/NIGHTRIDERCO/05_COMMUNITY/badges/00_base_frost_32x32.png",
+      "sha256": "f76ffbfba149d3d5082a3c09ed546b64cce3230c8107cfc1dfb42e96fa2b6b2f"
+    },
+    {
+      "path": "payload/NIGHTRIDERCO/05_COMMUNITY/badges/00_base_frost_512.svg",
+      "sha256": "2ebc94c93fc3be935522949b864a3e9cf6727c28b7b24b8486e52a1b8ae3a3ed"
+    },
+    {
+      "path": "payload/NIGHTRIDERCO/05_COMMUNITY/badges/00_base_frost_512x512.png",
+      "sha256": "cd3b7ddf0b37758bd1f79eb9de3ccd875566c8963753121265e7f8c955927d55"
+    },
+    {
+      "path": "payload/NIGHTRIDERCO/05_COMMUNITY/badges/00_base_frost_64x64.png",
+      "sha256": "ce361aad380c1a3775f382e34e55f258d966dd26c824ad5a9b998e5814f18a61"
+    },
+    {
+      "path": "payload/NIGHTRIDERCO/05_COMMUNITY/badges/01_01m_ridge_32x32.png",
+      "sha256": "d0189f4acc34397d9bdc8d66975d1b9b7fe2239599723b4aa092ea5212d50345"
+    },
+    {
+      "path": "payload/NIGHTRIDERCO/05_COMMUNITY/badges/01_01m_ridge_512.svg",
+      "sha256": "52e70c229a66952192e1c081955d95a9bceba592e475e77dec4141d15142a996"
+    },
+    {
+      "path": "payload/NIGHTRIDERCO/05_COMMUNITY/badges/01_01m_ridge_512x512.png",
+      "sha256": "4fb8dcdc83f503d4b78fd9bdb1c01d9242ecee45f96f98a7b394a263bbdbe57f"
+    },
+    {
+      "path": "payload/NIGHTRIDERCO/05_COMMUNITY/badges/01_01m_ridge_64x64.png",
+      "sha256": "f3aca43fb2538addf461b56238f25e09268ce3f4f9ea64af8bbbcf9e32e95a10"
+    },
+    {
+      "path": "payload/NIGHTRIDERCO/05_COMMUNITY/badges/02_02m_glacier_32x32.png",
+      "sha256": "0d1b66755b25b5e551aaad079c4f176fe6ad781b0d6fd9f5fcff5d9ba4a6295b"
+    },
+    {
+      "path": "payload/NIGHTRIDERCO/05_COMMUNITY/badges/02_02m_glacier_512.svg",
+      "sha256": "16d8109021bb87b95edd12c63e4d6955f4210c5517fa2334d6f60daa6b543af8"
+    },
+    {
+      "path": "payload/NIGHTRIDERCO/05_COMMUNITY/badges/02_02m_glacier_512x512.png",
+      "sha256": "ce48029f240e921ff76ea522743678c122ae7db43d87336acfd8321bb473c8cd"
+    },
+    {
+      "path": "payload/NIGHTRIDERCO/05_COMMUNITY/badges/02_02m_glacier_64x64.png",
+      "sha256": "a1c95a6b8b5952987d6812a39138d3b9cde931b5e3d9de6f4c1d3019885da3f3"
+    },
+    {
+      "path": "payload/NIGHTRIDERCO/05_COMMUNITY/badges/03_03m_summit_32x32.png",
+      "sha256": "b97bbed2c0924294d0319c2f5fd2efcedbe828c6c85a68655d9e3ba0513f84ce"
+    },
+    {
+      "path": "payload/NIGHTRIDERCO/05_COMMUNITY/badges/03_03m_summit_512.svg",
+      "sha256": "a059a87efdc6ef9b07ebcca1fa2452db4ca4f19e3e4f003d5ae2b050a27190b4"
+    },
+    {
+      "path": "payload/NIGHTRIDERCO/05_COMMUNITY/badges/03_03m_summit_512x512.png",
+      "sha256": "1be406490f84483ba8adf3920cc00e7ef900843b9d0837744630ec7004ce777f"
+    },
+    {
+      "path": "payload/NIGHTRIDERCO/05_COMMUNITY/badges/03_03m_summit_64x64.png",
+      "sha256": "c8d37147a9eb06a986c05bb5942bc99bc823afe47d33507e353bfae18a560a40"
+    },
+    {
+      "path": "payload/NIGHTRIDERCO/05_COMMUNITY/badges/04_06m_warden_32x32.png",
+      "sha256": "2db20e9f3912d665dc1b2195698fb0a21f274107b347a5ea6e87112c55e266ef"
+    },
+    {
+      "path": "payload/NIGHTRIDERCO/05_COMMUNITY/badges/04_06m_warden_512.svg",
+      "sha256": "b1d1245f1187a6a7a6d727371eabff541aedfff3ff085bf7ecb23076e40a028f"
+    },
+    {
+      "path": "payload/NIGHTRIDERCO/05_COMMUNITY/badges/04_06m_warden_512x512.png",
+      "sha256": "229eaf85accd05ea9622bac60db0fede29cbee6ae6f6091c3b0167620b2c1ff2"
+    },
+    {
+      "path": "payload/NIGHTRIDERCO/05_COMMUNITY/badges/04_06m_warden_64x64.png",
+      "sha256": "8290e053024b1fcc41b33708058ea6fb4a4638f5a7257af3b551ac20847a5700"
+    },
+    {
+      "path": "payload/NIGHTRIDERCO/05_COMMUNITY/badges/05_09m_aurora_32x32.png",
+      "sha256": "6cacf73e110f9f608680fe0c9d92709804079bd280bdeadda0656369563c8fd1"
+    },
+    {
+      "path": "payload/NIGHTRIDERCO/05_COMMUNITY/badges/05_09m_aurora_512.svg",
+      "sha256": "57e7a8e91fffbe44e1015a1e1e2f6986068af40b56ae1a284471a6e3de819a8d"
+    },
+    {
+      "path": "payload/NIGHTRIDERCO/05_COMMUNITY/badges/05_09m_aurora_512x512.png",
+      "sha256": "1060f7ecf55911b1fdf67150dde0f24b277c421a83c396f6871fd946d3c02bc3"
+    },
+    {
+      "path": "payload/NIGHTRIDERCO/05_COMMUNITY/badges/05_09m_aurora_64x64.png",
+      "sha256": "4b77c8394b9c53196cf855d058d8bfe3b938ff58fc6b3ce07be5a4876816cf9b"
+    },
+    {
+      "path": "payload/NIGHTRIDERCO/05_COMMUNITY/badges/06_12m_skadi_32x32.png",
+      "sha256": "1bb0f1d40df948edc6ecf292c239f1d82b2c818ef268f72496d159b80e39b417"
+    },
+    {
+      "path": "payload/NIGHTRIDERCO/05_COMMUNITY/badges/06_12m_skadi_512.svg",
+      "sha256": "f34c33f02967528f1978e968f89be4186736d1c02ac6e75db872c33e08206f93"
+    },
+    {
+      "path": "payload/NIGHTRIDERCO/05_COMMUNITY/badges/06_12m_skadi_512x512.png",
+      "sha256": "012e95fe4be5cb30cb3273f4aadecf775b5181cb6414fa3b95f308bedb0a4734"
+    },
+    {
+      "path": "payload/NIGHTRIDERCO/05_COMMUNITY/badges/06_12m_skadi_64x64.png",
+      "sha256": "b763d14e86db53359bae1691c30f428d8dbc0c5cae829b4ac38c40e81c0b430a"
+    },
+    {
+      "path": "payload/NIGHTRIDERCO/05_COMMUNITY/badges/07_24m_nightrider_32x32.png",
+      "sha256": "bb9527c5ad8982a31c2bf849bf42f7f172cd9dd343f27d2dfefa146192b5bf46"
+    },
+    {
+      "path": "payload/NIGHTRIDERCO/05_COMMUNITY/badges/07_24m_nightrider_512.svg",
+      "sha256": "51b775cb1df51104e3990c492ef94a1bb78981729a4d347c394131ceadec378d"
+    },
+    {
+      "path": "payload/NIGHTRIDERCO/05_COMMUNITY/badges/07_24m_nightrider_512x512.png",
+      "sha256": "83a21dd6f8e21c7148e2e590d1a1dfbef52e644412bec36e76fe1c46a9a5700d"
+    },
+    {
+      "path": "payload/NIGHTRIDERCO/05_COMMUNITY/badges/07_24m_nightrider_64x64.png",
+      "sha256": "c1b21706a2817ef1a25b14cc33eadf5ccc6eb264aa4e639613f93e29d599e580"
+    },
+    {
+      "path": "payload/NIGHTRIDERCO/05_COMMUNITY/badges/manifest.json",
+      "sha256": "adb2ce3ef22978e14ed7752b68a6fc4d3c9862982d8e6041ff723a4b2b405a10"
+    },
+    {
+      "path": "payload/NIGHTRIDERCO/05_COMMUNITY/emotes/manifest.json",
+      "sha256": "fe6d300b385ef981dbc9f1384998cf84fbea917ac36ba6dae62a198e27c3e3d1"
+    },
+    {
+      "path": "payload/NIGHTRIDERCO/05_COMMUNITY/emotes/masters/skadi-gg-master.png",
+      "sha256": "c38811ddfca5dadedb8c7576c6d6673df9038b5d4595bfac2c25461c4dd6df7d"
+    },
+    {
+      "path": "payload/NIGHTRIDERCO/05_COMMUNITY/emotes/masters/skadi-heart-master.png",
+      "sha256": "30b251861619c23f118e1c7dfe3ea77970b78c3fd7420a714ff9f570405b4ed9"
+    },
+    {
+      "path": "payload/NIGHTRIDERCO/05_COMMUNITY/emotes/masters/skadi-hi-master.png",
+      "sha256": "b31d7c764790a5a59b5e26ebcc1e5a33bc81eea84295c7775cb78f076712350c"
+    },
+    {
+      "path": "payload/NIGHTRIDERCO/05_COMMUNITY/emotes/masters/skadi-hype-master.png",
+      "sha256": "da376400dc61a049d720e9ba387e0a1c7d86e6c99779ad8f91f93190327dd676"
+    },
+    {
+      "path": "payload/NIGHTRIDERCO/05_COMMUNITY/emotes/masters/skadi-laugh-master.png",
+      "sha256": "f66a91d9da4610ef829f109ad51a888fc10cb690a34c0040fb0c772b6eee66ec"
+    },
+    {
+      "path": "payload/NIGHTRIDERCO/05_COMMUNITY/emotes/masters/skadi-lurk-master.png",
+      "sha256": "640477696478816823fc2b683d23994ff8d5b368d4e6246fc21844a3ccc755ba"
+    },
+    {
+      "path": "payload/NIGHTRIDERCO/05_COMMUNITY/emotes/masters/skadi-rage-master.png",
+      "sha256": "d41838a16298281e4e05887da5138c237dc3a0554f0fff92dca8fc04014036e8"
+    },
+    {
+      "path": "payload/NIGHTRIDERCO/05_COMMUNITY/emotes/masters/skadi-think-master.png",
+      "sha256": "3e10b3a4fc2515ebec9a9232467f8bafdde95318a239e215927acafa94cbeb95"
+    },
+    {
+      "path": "payload/NIGHTRIDERCO/05_COMMUNITY/emotes/skadi-gg-500.png",
+      "sha256": "6708d63c2261fbd182e15d85e81099db91ab80cb33d1305f18f9ccba7684ab48"
+    },
+    {
+      "path": "payload/NIGHTRIDERCO/05_COMMUNITY/emotes/skadi-heart-500.png",
+      "sha256": "46f179eb76b508f64d26e77e18c200948d81ff42f844db02f23a5d89583635c2"
+    },
+    {
+      "path": "payload/NIGHTRIDERCO/05_COMMUNITY/emotes/skadi-hi-500.png",
+      "sha256": "31712ce2949c86db6d7cb2eaa32d0bf3e775a0558b952844a2084edc41f46c62"
+    },
+    {
+      "path": "payload/NIGHTRIDERCO/05_COMMUNITY/emotes/skadi-hype-500.png",
+      "sha256": "e2c84fe2a63350ae8cd733a972198f82119639d434e16597dfa333932c7ac1b7"
+    },
+    {
+      "path": "payload/NIGHTRIDERCO/05_COMMUNITY/emotes/skadi-laugh-500.png",
+      "sha256": "e4d0835fdb85443cd90a79c252ba4da2ee24f73879d65a44a8e2f51b7e79c101"
+    },
+    {
+      "path": "payload/NIGHTRIDERCO/05_COMMUNITY/emotes/skadi-lurk-500.png",
+      "sha256": "6d4001325214593fe0bad70a2d817c564a5867b005b686e96a21be513085fbaf"
+    },
+    {
+      "path": "payload/NIGHTRIDERCO/05_COMMUNITY/emotes/skadi-rage-500.png",
+      "sha256": "439ba4198d505aa3383cb79d6975aa98f118abc11ce62d5a07ef0ac2957f3bba"
+    },
+    {
+      "path": "payload/NIGHTRIDERCO/05_COMMUNITY/emotes/skadi-think-500.png",
+      "sha256": "39e955f887450f0319f935d232ebaa1ea9ce613aeeab4245e35e2e98e62050d9"
+    },
+    {
+      "path": "payload/NIGHTRIDERCO/06_AUDIO/follow.wav",
+      "sha256": "4c00f176d6f3249401862a93638bdfb836e749ec4f048e0d6452f9b774ace28c"
+    },
+    {
+      "path": "payload/NIGHTRIDERCO/06_AUDIO/gift.wav",
+      "sha256": "46ce17c5e0f3a20ec9d7657d85ea45d126a7c554819c64d36aa4fb92d25765fe"
+    },
+    {
+      "path": "payload/NIGHTRIDERCO/06_AUDIO/raid.wav",
+      "sha256": "f827dc21993231cf33c125f314f1138c6c610195754b11eaa0d3a693886c8435"
+    },
+    {
+      "path": "payload/NIGHTRIDERCO/06_AUDIO/source/make_audio.py",
+      "sha256": "baeda505c9ea70f6eb9f14b0eb1251ac493c3fd7825f659f0cab07b77c478453"
+    },
+    {
+      "path": "payload/NIGHTRIDERCO/06_AUDIO/sub.wav",
+      "sha256": "e4afad381caf7502e52dbddd3790a1ac7d9dcce4bfb3b82e440c409ea86f6613"
+    },
+    {
+      "path": "payload/NIGHTRIDERCO/06_AUDIO/tip.wav",
+      "sha256": "442d696c0d96b15eca035233d04aa3d0c04612028f9a09bea61fa4788fcb4cc0"
+    },
+    {
+      "path": "payload/NIGHTRIDERCO/07_AUTOMATION/capture-hold.html",
+      "sha256": "dd89c30bd9ab53950ce2a3675a3e10232ecac9cd2f2d558460a62e423d30c02f"
+    },
+    {
+      "path": "payload/NIGHTRIDERCO/07_AUTOMATION/capture-hold.js",
+      "sha256": "d21dad63a53637c2b7132b0214911e0169f5067947519ca7d66b2bd406dc6f57"
+    },
+    {
+      "path": "payload/NIGHTRIDERCO/07_AUTOMATION/desktop-dock.css",
+      "sha256": "a093fc2d87be0f0dfd1c2336ac1ac90429b554b96de9c5b39c615777a4216190"
+    },
+    {
+      "path": "payload/NIGHTRIDERCO/07_AUTOMATION/desktop-dock.html",
+      "sha256": "cc4facf9bfef61fea316950d179b59e7518ac045a89b584a090312395a64a888"
+    },
+    {
+      "path": "payload/NIGHTRIDERCO/07_AUTOMATION/desktop-dock.js",
+      "sha256": "1e9ff57c25fe508ddc40e39f13f38910cf0a5631a0ba14ec429126623deac4b9"
+    },
+    {
+      "path": "payload/NIGHTRIDERCO/07_AUTOMATION/nightriderco-desktop-auto.lua",
+      "sha256": "7bb1dcdfb71f61c2fa38c72265fa8a218b25e8f0936a6dd75cc263ec346a1268"
+    },
+    {
+      "path": "payload/NIGHTRIDERCO/07_AUTOMATION/nrc-displays.lua",
+      "sha256": "d1ec88552d9605b9cc7e8289b948d63e437a7797d759810589f15beea5497a97"
+    },
+    {
+      "path": "payload/NIGHTRIDERCO/07_AUTOMATION/tests/keychain-client.test.cjs",
+      "sha256": "c1f65be194598887cbcc7bc12a8cc48249879d30009c698dfff7426cf84b4df1"
+    },
+    {
+      "path": "payload/NIGHTRIDERCO/08_LAYOUT_DOCK/config.js",
+      "sha256": "22bcfc1e37b0dc4c45ba65890c81a596d4997729721bbff2a1c6a1d4e30e90c8"
+    },
+    {
+      "path": "payload/NIGHTRIDERCO/08_LAYOUT_DOCK/gameplay-layout.html",
+      "sha256": "972363c5ff995c0da8f1b6c38de97899950d1232a108ee4a3271cfa7eae464fd"
+    },
+    {
+      "path": "payload/NIGHTRIDERCO/08_LAYOUT_DOCK/layout-core.js",
+      "sha256": "628980a35ba11dfccb2eb29339ed826f5a5a5184cbe276cb1ce37f37671dcd53"
+    },
+    {
+      "path": "payload/NIGHTRIDERCO/08_LAYOUT_DOCK/layout-dock.css",
+      "sha256": "aac75d7bfcb0504799d70cef83d3c16ca9bb4229fdaa7a58656baac3962020e0"
+    },
+    {
+      "path": "payload/NIGHTRIDERCO/08_LAYOUT_DOCK/layout-dock.html",
+      "sha256": "ae1261e50e8790f11aaf22da06c24be6d419ab9acb6283a27874abdec63f18cb"
+    },
+    {
+      "path": "payload/NIGHTRIDERCO/08_LAYOUT_DOCK/layout-ui.js",
+      "sha256": "c9a9785987765af005df62223353587f2cdba4f66e671283d3392abbe6ab2990"
+    },
+    {
+      "path": "payload/NIGHTRIDERCO/08_LAYOUT_DOCK/nightriderco-layout-setup.lua",
+      "sha256": "5536b57cfd8999ef19160a82de341326364e3699300fdc688fddcdb0330eadec"
+    },
+    {
+      "path": "payload/NIGHTRIDERCO/08_LAYOUT_DOCK/obs.css",
+      "sha256": "cb56b06e8c5d8ed81588075fa90cc8a839110d3cb5ad0a703a7e6c973acdb6bb"
+    },
+    {
+      "path": "payload/NIGHTRIDERCO/08_LAYOUT_DOCK/obs.js",
+      "sha256": "84008dfd35e7f72cd529fd14ba516ef6331542cbb5db630e8243d9a167aae573"
+    },
+    {
+      "path": "payload/NIGHTRIDERCO/08_LAYOUT_DOCK/webcam-frame-560x315.png",
+      "sha256": "9c9235a3d2012279722a90a36d61b1b6b84c043101b1cfe101421284988b6fde"
+    },
+    {
+      "path": "payload/NIGHTRIDERCO/08_LAYOUT_DOCK/webcam-frame-560x315.svg",
+      "sha256": "84dc728f1974bf767a8772f046bf18fd7de10320a84ab886272aa34ed7854cd7"
+    },
+    {
+      "path": "payload/NIGHTRIDERCO/GENERATION-PROMPTS.json",
+      "sha256": "01e9e8ea8b8eaf10293d83c3fdca3a7df1702765203c1a0caca8f3348215ab16"
+    },
+    {
+      "path": "payload/NIGHTRIDERCO/shared/keychain-client.js",
+      "sha256": "8c4b1cdfbff82877f82c60f0d167003abf4ad949c051155d0ea0da9f998e7ada"
+    },
+    {
+      "path": "payload/NIGHTRIDERCO-CHAT/lib/kick-realtime.js",
+      "sha256": "e4629dc5da6e9a3acfcfc41078b1e0b528039d9c3d258fc1d0355ee2da458663"
+    },
+    {
+      "path": "payload/NIGHTRIDERCO-CHAT/package.json",
+      "sha256": "00a94d83b7b0fb0aec81aa6a75ab67b64b3f2d084ac872219780e4617a319d96"
+    },
+    {
+      "path": "payload/NIGHTRIDERCO-CHAT/public/assets/emblem.svg",
+      "sha256": "71fc4e89b0a5c5ed5b6946288a5b0b7155ad3c1e340536e485434ac8f99eca83"
+    },
+    {
+      "path": "payload/NIGHTRIDERCO-CHAT/public/assets/skadi-gg-112.png",
+      "sha256": "a817acaeed1a75eebfb1840f4d14d4630b604d950c1d56a3467241c226236327"
+    },
+    {
+      "path": "payload/NIGHTRIDERCO-CHAT/public/assets/skadi-heart-112.png",
+      "sha256": "550abc80a8dda6a5601c4e4b56d97d010af83e756ab4a8b4aecde2c52acfc9bf"
+    },
+    {
+      "path": "payload/NIGHTRIDERCO-CHAT/public/assets/skadi-hi-112.png",
+      "sha256": "174eedfa497d142d2f659a0dec15bbae317044672b3c9a111821c8694a946c27"
+    },
+    {
+      "path": "payload/NIGHTRIDERCO-CHAT/public/chat-view.js",
+      "sha256": "b92b21932896edfa049ab392f045a6e7ac24d74f54b351840f7658a51d739021"
+    },
+    {
+      "path": "payload/NIGHTRIDERCO-CHAT/public/chat.css",
+      "sha256": "744d310fb8f5579576d3407b49676ce5d767e6c9590be07735382b6fd6392b66"
+    },
+    {
+      "path": "payload/NIGHTRIDERCO-CHAT/public/demo.js",
+      "sha256": "973be1483e6feac168a8b80fbde1cbf813549f81ebd5ef087ece9ce9e4f12357"
+    },
+    {
+      "path": "payload/NIGHTRIDERCO-CHAT/public/index.html",
+      "sha256": "43909949ac665e9570e4e9bf4b23025db32de426c5e8b25ecbed5235c1169b44"
+    },
+    {
+      "path": "payload/NIGHTRIDERCO-CHAT/public/overlay.html",
+      "sha256": "bfbfd437616aada84a4526a7f4b6f273f8ce301044fff9b0867c5e59ce4f3fff"
+    },
+    {
+      "path": "payload/NIGHTRIDERCO-CHAT/public/overlay.js",
+      "sha256": "5c7153db45a26ed7b9df9287c846304ab35088ff7bd80fb95d4215507a9a3dcf"
+    },
+    {
+      "path": "payload/NIGHTRIDERCO-CHAT/public/providers/kick.js",
+      "sha256": "c89ec15796f90aaa4149eb63a5ab0b1c669df40166e17298114d360706241986"
+    },
+    {
+      "path": "payload/NIGHTRIDERCO-CHAT/public/studio.css",
+      "sha256": "c48ad147412450dffe2dd775adc9e7c9fb79631c65e895b8b2e2f191055a9530"
+    },
+    {
+      "path": "payload/NIGHTRIDERCO-CHAT/public/studio.js",
+      "sha256": "ed0db8c7babc7180d5b225aa4a1ff2dad6e47244943bbe2ae591bb8f85411880"
+    },
+    {
+      "path": "payload/NIGHTRIDERCO-CHAT/server.mjs",
+      "sha256": "777722e9e0bf0e5807c492126f7922928d085a7eb99963499fda57dd9a6dcfbc"
+    },
+    {
+      "path": "payload/NIGHTRIDERCO-CHAT/tests/client.test.mjs",
+      "sha256": "e8c684acccda5af557cfd0428bbc1feb097153c2e78c5358f3711efeb1ac5234"
+    },
+    {
+      "path": "payload/NIGHTRIDERCO-CHAT/tests/kick.test.mjs",
+      "sha256": "f07ef88461d0644e6806860dd41777121bff16cdfa42e784b77aaedb779dc818"
+    },
+    {
+      "path": "payload/NIGHTRIDERCO-CHAT/tests/server.test.mjs",
+      "sha256": "cd263b7041d8bcf8215dee670a1ae9f58cec7f982db34dfd573bc4f0f4a1481d"
+    },
+    {
+      "path": "payload/NIGHTRIDERCO-HUSKY/Husky Typist.app/Contents/Info.plist",
+      "sha256": "798df33091b278a610e91cb76ea66c46f2eed5d07bcdf39d2a60ba7d6d2dac3f"
+    },
+    {
+      "path": "payload/NIGHTRIDERCO-HUSKY/Husky Typist.app/Contents/MacOS/HuskyTypist",
+      "sha256": "a86e7f0295e67178c51823efbac7b7f1cc4d375d341dfd2da81826e64ee1c6c5"
+    },
+    {
+      "path": "payload/NIGHTRIDERCO-HUSKY/Husky Typist.app/Contents/Resources/web/husky-atlas.png",
+      "sha256": "2422158678a2187a879d0c8f6affe6ddd7509c8a0db0a5fde14f7106edbd4ef0"
+    },
+    {
+      "path": "payload/NIGHTRIDERCO-HUSKY/Husky Typist.app/Contents/Resources/web/keyboard-facing-wolf.png",
+      "sha256": "5ef680664e82f967535d6891c32dec1cb340036398ad848abc8fc4b17d5bd35f"
+    },
+    {
+      "path": "payload/NIGHTRIDERCO-HUSKY/Husky Typist.app/Contents/Resources/web/mascot.js",
+      "sha256": "07067e01e26ffaa33a8f2ab77f8c3738566cf4e8f8c3dae445e87d98e1cc2d43"
+    },
+    {
+      "path": "payload/NIGHTRIDERCO-HUSKY/Husky Typist.app/Contents/Resources/web/overlay.html",
+      "sha256": "60ac5031cd56f76fed2e18cbbfef7f451e9c50ac261d340264c912592d9a5d6a"
+    },
+    {
+      "path": "payload/NIGHTRIDERCO-HUSKY/Husky Typist.app/Contents/Resources/web/preview.html",
+      "sha256": "482f69f7cbb9a11589efedf2108e0d9da28af8445c64fdb4b6762531f90ba053"
+    },
+    {
+      "path": "payload/NIGHTRIDERCO-HUSKY/Husky Typist.app/Contents/Resources/web/wolf-speaking.png",
+      "sha256": "3bb0a046f05c08756e57c1cd7f0f4a5f3ff3ec063fc7c1819edc5fecd8cd8d8f"
+    },
+    {
+      "path": "payload/NIGHTRIDERCO-HUSKY/Husky Typist.app/Contents/_CodeSignature/CodeResources",
+      "sha256": "9238012a87a0f0265e167112e8491007d3b6d65e72a7a8d11d238cf370c591e5"
+    },
+    {
+      "path": "payload/NIGHTRIDERCO-HUSKY/source/ARTWORK-PROMPT-v2.txt",
+      "sha256": "6913148eef9e0ec314527db6e8f26aa596c48ebdf7b8ce59edd99352f8aa2646"
+    },
+    {
+      "path": "payload/NIGHTRIDERCO-HUSKY/source/ARTWORK-PROMPT-v3.txt",
+      "sha256": "40beb69af785cab6096264e760507e2260f322266473e237951840e77848656a"
+    },
+    {
+      "path": "payload/NIGHTRIDERCO-HUSKY/source/ARTWORK-PROMPT-v5.txt",
+      "sha256": "22744f335aa2d80b6189dc4401a74267c4ecef5e2330358ce9b3c6a6f2baa0b8"
+    },
+    {
+      "path": "payload/NIGHTRIDERCO-HUSKY/source/ARTWORK-PROMPT.txt",
+      "sha256": "917bada44762b0870977ffc0aa9741b8e8b34cacab980f1dc25f57edbb6ccc0c"
+    },
+    {
+      "path": "payload/NIGHTRIDERCO-HUSKY/source/BUILD.txt",
+      "sha256": "911bda1d8e43fe8a76d5fb4794c1c6bebb789ca34ef31e64f6a3c821bbed73d0"
+    },
+    {
+      "path": "payload/NIGHTRIDERCO-HUSKY/source/HuskyTypist.swift",
+      "sha256": "c80d49fb064c0face5d118b406fd4e616450582682707ab56bc1e915cf05030a"
+    },
+    {
+      "path": "payload/NIGHTRIDERCO-HUSKY/web/husky-atlas.png",
+      "sha256": "2422158678a2187a879d0c8f6affe6ddd7509c8a0db0a5fde14f7106edbd4ef0"
+    },
+    {
+      "path": "payload/NIGHTRIDERCO-HUSKY/web/keyboard-facing-wolf.png",
+      "sha256": "5ef680664e82f967535d6891c32dec1cb340036398ad848abc8fc4b17d5bd35f"
+    },
+    {
+      "path": "payload/NIGHTRIDERCO-HUSKY/web/mascot.js",
+      "sha256": "ca74641dbfa6d0a0b2753636e035a4cdc2c9f9fc512f1cd62795f9b94f7091aa"
+    },
+    {
+      "path": "payload/NIGHTRIDERCO-HUSKY/web/overlay.html",
+      "sha256": "60ac5031cd56f76fed2e18cbbfef7f451e9c50ac261d340264c912592d9a5d6a"
+    },
+    {
+      "path": "payload/NIGHTRIDERCO-HUSKY/web/preview.html",
+      "sha256": "bab1bbe3d1e96c64ae6e80428ceb478190a098e3d9c693571a04b6aa2bc8f8fa"
+    },
+    {
+      "path": "payload/NIGHTRIDERCO-HUSKY/web/wolf-speaking.png",
+      "sha256": "3bb0a046f05c08756e57c1cd7f0f4a5f3ff3ec063fc7c1819edc5fecd8cd8d8f"
+    },
+    {
+      "path": "payload/NIGHTRIDERCO-HUSKY-SIMRACING/ARTWORK-PROMPT.txt",
+      "sha256": "702e44d4b5a46115105f824c0de253007dd3d938ae610ad75c3ad2836d647a07"
+    },
+    {
+      "path": "payload/NIGHTRIDERCO-HUSKY-SIMRACING/assets/husky-atlas.png",
+      "sha256": "2422158678a2187a879d0c8f6affe6ddd7509c8a0db0a5fde14f7106edbd4ef0"
+    },
+    {
+      "path": "payload/NIGHTRIDERCO-HUSKY-SIMRACING/assets/rs50-wheel-paws.png",
+      "sha256": "d9e30dfc824b1f3678f87633413dbd239f32dad8098b475d94930f573364f861"
+    },
+    {
+      "path": "payload/NIGHTRIDERCO-HUSKY-SIMRACING/overlay.html",
+      "sha256": "6816bb0dbf3dabe91e32caf1a51b34359db781278bae5ac50343fa423b468db5"
+    },
+    {
+      "path": "payload/NIGHTRIDERCO-HUSKY-SIMRACING/simracing.js",
+      "sha256": "2c7c22ed91f8854902fe9f82dedb647958887f48ca19d7891299092e17b96b1a"
+    },
+    {
+      "path": "payload/NIGHTRIDERCO-LIMIT-RESET/ARTWORK-PROMPT.txt",
+      "sha256": "1ee0bd3fdb4ce531686e10ef94a2dd34ca6bdcc1c2c0b15d0d02a4858a04b888"
+    },
+    {
+      "path": "payload/NIGHTRIDERCO-LIMIT-RESET/assets/chibi-texture.js",
+      "sha256": "f6c5c1efd6a4f16b5e67764797e06abce8361221fbfeeaa9ecc35c50ed98e146"
+    },
+    {
+      "path": "payload/NIGHTRIDERCO-LIMIT-RESET/assets/husky-chibi.png",
+      "sha256": "7e54d986f7c49de102c0175d6faa5fc8379db3fa8e10b207301159486fca8bbd"
+    },
+    {
+      "path": "payload/NIGHTRIDERCO-LIMIT-RESET/clock.js",
+      "sha256": "6ac6dcb1127ae864d193b20e9bf1028c34788824fa8794087259607a7416a2c1"
+    },
+    {
+      "path": "payload/NIGHTRIDERCO-LIMIT-RESET/config.js",
+      "sha256": "be9871998fa92f778503fe59743d11933a9d138af31507bdae459166ecd9a93c"
+    },
+    {
+      "path": "payload/NIGHTRIDERCO-LIMIT-RESET/dance.js",
+      "sha256": "f5f473d190774afac1796ddcdc52a8996bdc494d12766164fa9d68c03eb2aff2"
+    },
+    {
+      "path": "payload/NIGHTRIDERCO-LIMIT-RESET/scene.css",
+      "sha256": "7055557e2b723b9033d6fb0c801ccf33971e3b87d269b3d5831f8b53e2e38667"
+    },
+    {
+      "path": "payload/NIGHTRIDERCO-LIMIT-RESET/scene.html",
+      "sha256": "6b4cf5d0323891d2ea69c9b047ab114c97fbadedfd9bd2cb9b8be5d161d55655"
+    },
+    {
+      "path": "payload/NIGHTRIDERCO-OBS-AUTOSTART/docks/camera-switch.html",
+      "sha256": "7ee65966edb885f1ea6d072010008ce439c3b9753839f9d2a0e436947ea436e5"
+    },
+    {
+      "path": "payload/NIGHTRIDERCO-OBS-AUTOSTART/docks/desktop-switch.html",
+      "sha256": "790e168cb3faa3103644da8702022472a11d97527eeaaac5093a9838984b9522"
+    },
+    {
+      "path": "payload/NIGHTRIDERCO-OBS-AUTOSTART/docks/resolution.html",
+      "sha256": "5db11782e9be7a4c67c150c41f6ecc1b086db6ec0ef03b934577ea3f987c8ffc"
+    },
+    {
+      "path": "payload/NIGHTRIDERCO-OBS-AUTOSTART/docks/scene-layout.html",
+      "sha256": "10329b88733eceefe3e3dcba4ba5b7b91d46bc7f2cf502c546fdef44b18ed01b"
+    },
+    {
+      "path": "payload/NIGHTRIDERCO-OBS-AUTOSTART/nightriderco-local-services.lua",
+      "sha256": "add7070558271a88397d605d800efcf62f07c8adebaae3eea1ce74febb57ff5d"
+    },
+    {
+      "path": "payload/NIGHTRIDERCO-OBS-AUTOSTART/start-services.py",
+      "sha256": "ff137ac2a61caa6aca07cd92ab105273bea3542b0d05036dfbda3b1a4d8477c0"
+    },
+    {
+      "path": "payload/NIGHTRIDERCO-Resolution-Dock/dock.css",
+      "sha256": "0eee7a49d1f691e331017a7ff54f46485e042fb184a99cb46d8c3a48013e0346"
+    },
+    {
+      "path": "payload/NIGHTRIDERCO-Resolution-Dock/dock.html",
+      "sha256": "3c0f4b5cddb8d6a22c2dff88588eaaf30884461c6cd50e9b6e5e0a5a6056345e"
+    },
+    {
+      "path": "payload/NIGHTRIDERCO-Resolution-Dock/dock.js",
+      "sha256": "6d97d6e92d74fe2c08638dd7a4ad7ea53404228c002b632424ac43a4c0e910fe"
+    },
+    {
+      "path": "payload/NIGHTRIDERCO-Resolution-Dock/engine.mjs",
+      "sha256": "3bf07e55cc98e07dbb763a1d2618ad88b8b95faea1882bdf4f57bcc236493d2c"
+    },
+    {
+      "path": "payload/NIGHTRIDERCO-Resolution-Dock/obs-client.mjs",
+      "sha256": "d8c8f9a5973c074d07e9742a0d2577169d82c0ccc3185d71154eaa36c417a968"
+    },
+    {
+      "path": "payload/NIGHTRIDERCO-Resolution-Dock/server.mjs",
+      "sha256": "b3b8b2757c233e14fb0ed6f99c0fdd5a6d55052c351309541c901677f54dc83c"
+    },
+    {
+      "path": "payload/NIGHTRIDERCO-Resolution-Dock/tests/resolution.test.mjs",
+      "sha256": "e732344efcf60a4194c543ee0c4db9135eb0a02eb6273b506984dd57a7fa7f68"
+    },
+    {
+      "path": "payload/SecureDocks/07_AUTOMATION/desktop-dock.css",
+      "sha256": "a093fc2d87be0f0dfd1c2336ac1ac90429b554b96de9c5b39c615777a4216190"
+    },
+    {
+      "path": "payload/SecureDocks/07_AUTOMATION/desktop-dock.html",
+      "sha256": "cc4facf9bfef61fea316950d179b59e7518ac045a89b584a090312395a64a888"
+    },
+    {
+      "path": "payload/SecureDocks/07_AUTOMATION/desktop-dock.js",
+      "sha256": "1e9ff57c25fe508ddc40e39f13f38910cf0a5631a0ba14ec429126623deac4b9"
+    },
+    {
+      "path": "payload/SecureDocks/07_AUTOMATION/tests/keychain-client.test.cjs",
+      "sha256": "c1f65be194598887cbcc7bc12a8cc48249879d30009c698dfff7426cf84b4df1"
+    },
+    {
+      "path": "payload/SecureDocks/08_LAYOUT_DOCK/layout-core.js",
+      "sha256": "628980a35ba11dfccb2eb29339ed826f5a5a5184cbe276cb1ce37f37671dcd53"
+    },
+    {
+      "path": "payload/SecureDocks/08_LAYOUT_DOCK/layout-dock.css",
+      "sha256": "aac75d7bfcb0504799d70cef83d3c16ca9bb4229fdaa7a58656baac3962020e0"
+    },
+    {
+      "path": "payload/SecureDocks/08_LAYOUT_DOCK/layout-dock.html",
+      "sha256": "ae1261e50e8790f11aaf22da06c24be6d419ab9acb6283a27874abdec63f18cb"
+    },
+    {
+      "path": "payload/SecureDocks/08_LAYOUT_DOCK/layout-ui.js",
+      "sha256": "c9a9785987765af005df62223353587f2cdba4f66e671283d3392abbe6ab2990"
+    },
+    {
+      "path": "payload/SecureDocks/native/build.sh",
+      "sha256": "d110d566ede0907ace5a84e00f4b1bcb2a5928f1d7aed905bc517687cf17c04c"
+    },
+    {
+      "path": "payload/SecureDocks/native/keychain-tool",
+      "sha256": "2050a94dd029655d3713a5b22d825c34b3e568f44f6f2d184656b17b2d822578"
+    },
+    {
+      "path": "payload/SecureDocks/native/keychain-tool.m",
+      "sha256": "700176e5a5dd0e81c8ccc1039f369d918e32679e5c523014da70393fb61e5937"
+    },
+    {
+      "path": "payload/SecureDocks/native/native-self-test.m",
+      "sha256": "fffb02061adb614e6e27da8741fc1eb1ef888adb7b37ca5887b2957cf9004757"
+    },
+    {
+      "path": "payload/SecureDocks/native/test.sh",
+      "sha256": "cb1c2c4857883ad80fd5b0b3986adfec063ab6784e6e91e5151dd961f7389c53"
+    },
+    {
+      "path": "payload/SecureDocks/secure-docks.py",
+      "sha256": "5eb421ac4a5aa7dfa975257dfabfa702b504ef93fd933e91ac484c762be9bd22"
+    },
+    {
+      "path": "payload/SecureDocks/shared/camera-core.js",
+      "sha256": "9470df85d5b86586beff2ebc4032e13321e5e4aa605e27e44b7cce4386c51419"
+    },
+    {
+      "path": "payload/SecureDocks/shared/camera-switch.css",
+      "sha256": "3179af404d53be60cacacf17be3b2a372a12f6430b25fd96b45f51cfa7337dec"
+    },
+    {
+      "path": "payload/SecureDocks/shared/camera-switch.html",
+      "sha256": "c5025036ae15687b14d6970e8419e0a51e22dee1993324fa969bf8ff4435f37e"
+    },
+    {
+      "path": "payload/SecureDocks/shared/camera-switch.js",
+      "sha256": "761cf1435cdcca04b32f0ef3e9981eca7530958817f6710439f7b8616fd19023"
+    },
+    {
+      "path": "payload/SecureDocks/shared/keychain-client.js",
+      "sha256": "8c4b1cdfbff82877f82c60f0d167003abf4ad949c051155d0ea0da9f998e7ada"
+    },
+    {
+      "path": "payload/Start tools.command",
+      "sha256": "e1f80e23ba58e86f0b6d8e3499c548cd372e757a34b713fac66e44aa44c4621b"
+    },
+    {
+      "path": "tests/extracted/README.md",
+      "sha256": "1e7d9a9ebe266dfd2aa276462c70353adec34a47720abeed8e92e2361b91bb58"
+    },
+    {
+      "path": "tests/extracted/camera/camera.test.cjs",
+      "sha256": "45b8c8a47a7428094c851fe96e288fd311f3b2aa4d2104a432b1b5d78b055ce9"
+    },
+    {
+      "path": "tests/extracted/desktop/hold-mocks.cjs",
+      "sha256": "52cec89d13dd2d45907bcba37b207aeb2346f9e52176a22039a73f140db3de9d"
+    },
+    {
+      "path": "tests/extracted/desktop/mock_obs.lua",
+      "sha256": "3fdeff1ecbef9bf17aed66a0772b2fe0b145b65cb69cb1c966913a3f9f9064ef"
+    },
+    {
+      "path": "tests/extracted/desktop/test-displays.lua",
+      "sha256": "b9686489b793ca090e0fe3792b392109b85d30e16a8db59d10ad8806729aed09"
+    },
+    {
+      "path": "tests/extracted/desktop/test-dock.cjs",
+      "sha256": "3573308c3ce5027bdd0863e17c7fdd443f91307bf8e3d254669a609504f4510b"
+    },
+    {
+      "path": "tests/extracted/desktop/test_hold_animation.cjs",
+      "sha256": "12bdbd731f1eff46f108fe010a402bb2a203206988528e92c24cf1362fc4eb58"
+    },
+    {
+      "path": "tests/extracted/layout/layout-component.test.cjs",
+      "sha256": "66a51015d30bf12f824471a3faf7fe57c298f43043aabdf97577a14c5f4676ba"
+    },
+    {
+      "path": "tests/extracted/secure-docks/test_secure_server.py",
+      "sha256": "51a7c3c72f81996c05a4849de9cd02fc62cd4c26e5b930d16a25d0862800bcbf"
+    },
+    {
+      "path": "tests/extracted/startup/test_obs_start_services.py",
+      "sha256": "02291ae13d9da11cb174176077f39975f47acf0652545f4f3a35d9395f5f0f64"
+    },
+    {
+      "path": "tests/test_install.py",
+      "sha256": "a0b7d4b3fe423a2cdf2b032d041a20bb4ae09acd8d430a8c79d09074d92efaaf"
+    },
+    {
+      "path": "tests/test_services.py",
+      "sha256": "9c6b3cddcac08b83e74844714ab1f33fe78be854d7e08bf56f80f8b45c45abb6"
+    }
+  ]
+}

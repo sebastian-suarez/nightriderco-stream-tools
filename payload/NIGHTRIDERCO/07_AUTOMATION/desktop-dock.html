@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'self'; style-src 'self'; connect-src 'self' ws://127.0.0.1:*; img-src 'self' data:; base-uri 'none'; form-action 'none'; object-src 'none'">
+  <title>NIGHTRIDERCO · Desktop Switch</title>
+  <link rel="stylesheet" href="desktop-dock.css">
+  <script src="../shared/keychain-client.js" defer></script>
+  <script src="desktop-dock.js" defer></script>
+</head>
+<body>
+  <main class="dock">
+    <header>
+      <span class="brand">NIGHTRIDERCO <span class="rune" aria-hidden="true">ᛉ</span></span>
+      <span id="connection" class="connection">Offline</span>
+    </header>
+    <div id="demo-label" class="demo-label" hidden>DEMO · controls disabled / controles desactivados</div>
+    <section class="automation" id="automation-picker" hidden>
+      <label for="automation">Managed scene / Escena automática</label>
+      <select id="automation"><option value="">Choose an automation / Elegir</option></select>
+    </section>
+    <section class="switcher" aria-label="Display selection / Selección de pantalla">
+      <div class="eyebrow">DESKTOP SWITCH <span>/ PANTALLA</span></div>
+      <button id="choose-mac" class="display-button" type="button" disabled aria-pressed="false">
+        <svg viewBox="0 0 40 32" aria-hidden="true"><rect x="7" y="3" width="26" height="20" rx="2"/><path d="M3 27h34l-3 2H6zM15 27h10"/></svg>
+        <span class="display-copy"><strong>MacBook Pro</strong><span id="mac-source">Primary capture / Captura principal</span></span>
+        <span class="selected-mark" aria-hidden="true">●</span>
+      </button>
+      <button id="choose-studio" class="display-button" type="button" disabled aria-pressed="false">
+        <svg viewBox="0 0 40 32" aria-hidden="true"><rect x="3" y="2" width="34" height="22" rx="2"/><path d="M20 24v6M13 30h14"/></svg>
+        <span class="display-copy"><strong>Studio Display</strong><span id="studio-source">Second capture / Segunda captura</span></span>
+        <span class="selected-mark" aria-hidden="true">●</span>
+      </button>
+    </section>
+    <button id="detect-displays" class="detect-displays" type="button" disabled>Detect / Refresh displays</button>
+    <section class="status-box" role="status" aria-live="polite" aria-atomic="true">
+      <span id="status-dot" class="status-dot"></span>
+      <div><strong id="observed">Connect to OBS / Conectar a OBS</strong><p id="status-message">Choose a display here after connecting.</p></div>
+    </section>
+    <p id="error" class="error" role="alert" hidden></p>
+    <details id="settings" open>
+      <summary>Connection / Conexión <span aria-hidden="true">⌄</span></summary>
+      <div class="settings-body">
+        <p class="settings-note">Local OBS WebSocket · 127.0.0.1</p>
+        <label for="port">Port / Puerto</label>
+        <input id="port" type="number" min="1" max="65535" value="4455" inputmode="numeric">
+        <label for="password">WebSocket password / Contraseña</label>
+        <input id="password" type="password" autocomplete="off" spellcheck="false" placeholder="OBS → Tools → WebSocket Server Settings">
+        <p id="keychain-status" class="privacy-note" role="status">Checking macOS Keychain…</p>
+        <p class="privacy-note">Saved securely in macOS Keychain. Shared by both docks for this OBS port. Leave blank to reuse; enter a password to replace it.<br>Guardada en el Llavero de macOS. Compartida por ambos paneles.</p>
+        <p id="keychain-setup" class="privacy-note" hidden><a href="http://127.0.0.1:17642/" target="_blank" rel="noopener">Open Keychain helper setup / Abrir configuración</a></p>
+        <button id="forget-password" type="button" disabled>Forget saved password / Olvidar contraseña</button>
+        <div class="connection-actions"><button id="connect" type="button">Connect / Conectar</button><button id="refresh" type="button" disabled>Refresh / Revisar</button></div>
+      </div>
+    </details>
+    <footer>One scene. Your selected display.<br>Una escena. La pantalla que eliges.</footer>
+  </main>
+</body>
+</html>

@@ -1,0 +1,117 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'self'; style-src 'self'; connect-src 'self' ws://127.0.0.1:*; img-src 'self' data:; base-uri 'none'; form-action 'none'">
+  <title>NIGHTRIDERCO · Scene Layout</title>
+  <link rel="stylesheet" href="layout-dock.css">
+  <script src="../shared/keychain-client.js" defer></script>
+  <script src="layout-core.js" defer></script>
+  <script src="layout-ui.js" defer></script>
+</head>
+<body>
+  <main class="dock" id="dock">
+    <header class="brand-row">
+      <div>
+        <div class="brand">NIGHTRIDER<span>CO</span><span class="brand-slash">//</span></div>
+        <h1>Scene layout</h1>
+      </div>
+      <div class="connection-status" id="connection-status" role="status"><span class="status-dot"></span><span id="connection-label">Offline</span></div>
+    </header>
+
+    <div class="demo-banner" id="demo-banner" hidden><span class="demo-dot"></span>DEMO PREVIEW<span>No OBS connection</span></div>
+
+    <section class="scene-section" aria-label="Scene selection">
+      <div class="section-label"><label for="scene-select">CONTROL SCENE</label><span id="scene-follow-label">Follow active</span><button class="compact-map-button" id="map-toggle" type="button" aria-expanded="false" aria-controls="layout-preview">Show map</button></div>
+      <div class="scene-select-wrap">
+        <select id="scene-select" aria-describedby="scene-follow-label">
+          <option value="auto">Auto · active scene</option>
+          <option value="Workshop">Workshop</option>
+          <option value="Gameplay">Gameplay</option>
+        </select>
+        <svg viewBox="0 0 20 20" aria-hidden="true"><path d="m5 7.5 5 5 5-5"/></svg>
+      </div>
+    </section>
+
+    <section class="preview" id="layout-preview" aria-label="Live scene layout">
+      <div class="preview-heading"><span><span class="live-dot" id="map-live-dot"></span>LAYOUT MAP</span><span id="map-scene">No scene connected</span></div>
+      <div class="map-wrap">
+        <svg class="layout-map" id="layout-map" viewBox="0 0 2560 1440" role="img" aria-label="Camera and chat position preview">
+          <defs>
+            <pattern id="map-grid" width="160" height="160" patternUnits="userSpaceOnUse"><path d="M160 0H0V160" class="map-grid-line"/></pattern>
+          </defs>
+          <rect class="map-bg" width="2560" height="1440"/>
+          <rect width="2560" height="1440" fill="url(#map-grid)"/>
+          <path class="map-safe-line" d="M64 160V64H160M2400 64h96v96M2496 1280v96h-96M160 1376H64v-96"/>
+          <text class="map-content-label" x="1280" y="735" text-anchor="middle">SCENE</text>
+          <g class="map-item map-camera" id="map-camera">
+            <rect class="map-item-body" id="map-camera-rect" x="52" y="992" width="576" height="331" rx="18"/>
+            <rect class="map-camera-aperture" id="map-camera-aperture" x="60" y="1000" width="560" height="315" rx="10"/>
+            <text class="map-item-label" id="map-camera-label" x="340" y="1157.5" text-anchor="middle">SWITCH</text>
+          </g>
+          <g class="map-item map-chat" id="map-chat">
+            <rect class="map-item-body" id="map-chat-rect" x="2024" y="680" width="476" height="646.1" rx="18"/>
+            <text class="map-item-label" id="map-chat-label" x="2262" y="1003.05" text-anchor="middle">CHAT</text>
+          </g>
+        </svg>
+        <div class="map-offline" id="map-offline">Connect to view layout</div>
+      </div>
+      <div class="map-legend"><span><i class="legend-camera"></i>Camera Switch</span><span><i class="legend-chat"></i>Chat</span><span id="map-size">2560 × 1440</span></div>
+    </section>
+
+    <div class="notice notice-setup" id="setup-notice" hidden>
+      <div class="notice-title">Prepare your scene controls</div>
+      <p>This scene needs a Camera Switch instance. Run setup, then refresh.</p>
+      <button class="button button-accent" id="prepare-button" type="button">Prepare scenes<svg viewBox="0 0 16 16" aria-hidden="true"><path d="M3 8h10M9 4l4 4-4 4"/></svg></button>
+    </div>
+    <div class="notice notice-error" id="error-notice" role="alert" hidden></div>
+
+    <div class="controls-grid">
+    <section class="control-card" id="camera-card" aria-labelledby="camera-title">
+      <div class="card-heading">
+        <div class="card-title-wrap"><svg class="card-icon" viewBox="0 0 20 20" aria-hidden="true"><rect x="2" y="5" width="11" height="11" rx="2"/><path d="m13 8 5-3v11l-5-3"/></svg><h2 id="camera-title">Camera Switch</h2><span class="frame-tag">LOCAL</span></div>
+        <button class="visibility-toggle" id="camera-visibility" type="button" role="switch" aria-checked="false" aria-label="Show Camera Switch" disabled><span class="visibility-text">Hidden</span><span class="switch-track"><span></span></span></button>
+      </div>
+      <div class="position-grid" role="group" aria-label="Camera position">
+        <button type="button" class="position-button" data-kind="camera" data-preset="top-left" aria-pressed="false" disabled><span class="anchor-icon anchor-top-left"></span><span>Top left</span></button>
+        <button type="button" class="position-button" data-kind="camera" data-preset="top-right" aria-pressed="false" disabled><span class="anchor-icon anchor-top-right"></span><span>Top right</span></button>
+        <button type="button" class="position-button" data-kind="camera" data-preset="bottom-left" aria-pressed="false" disabled><span class="anchor-icon anchor-bottom-left"></span><span>Bottom left</span></button>
+        <button type="button" class="position-button" data-kind="camera" data-preset="bottom-right" aria-pressed="false" disabled><span class="anchor-icon anchor-bottom-right"></span><span>Bottom right</span></button>
+      </div>
+      <div class="card-caption" id="camera-caption">Position applies to this scene only.</div>
+    </section>
+
+    <section class="control-card chat-card" id="chat-card" aria-labelledby="chat-title">
+      <div class="card-heading">
+        <div class="card-title-wrap"><svg class="card-icon" viewBox="0 0 20 20" aria-hidden="true"><path d="M17 3H3v11h4v4l4-4h6zM6 7h8M6 10h5"/></svg><h2 id="chat-title">Chat</h2></div>
+        <button class="visibility-toggle" id="chat-visibility" type="button" role="switch" aria-checked="false" aria-label="Show chat" disabled><span class="visibility-text">Hidden</span><span class="switch-track"><span></span></span></button>
+      </div>
+      <div class="position-grid" role="group" aria-label="Chat position">
+        <button type="button" class="position-button" data-kind="chat" data-preset="top-left" aria-pressed="false" disabled><span class="anchor-icon anchor-top-left"></span><span>Top left</span></button>
+        <button type="button" class="position-button" data-kind="chat" data-preset="top-right" aria-pressed="false" disabled><span class="anchor-icon anchor-top-right"></span><span>Top right</span></button>
+        <button type="button" class="position-button" data-kind="chat" data-preset="bottom-left" aria-pressed="false" disabled><span class="anchor-icon anchor-bottom-left"></span><span>Bottom left</span></button>
+        <button type="button" class="position-button" data-kind="chat" data-preset="bottom-right" aria-pressed="false" disabled><span class="anchor-icon anchor-bottom-right"></span><span>Bottom right</span></button>
+      </div>
+      <div class="card-caption" id="chat-caption">Choose a corner. Keep the action clear.</div>
+    </section>
+    </div>
+
+    <div class="activity-row" role="status" aria-live="polite"><span id="activity-message">Connect to OBS to enable scene controls.</span><button class="refresh-button" id="refresh-button" type="button" aria-label="Refresh scene layout" title="Refresh layout from OBS" disabled><svg viewBox="0 0 18 18" aria-hidden="true"><path d="M14.8 6A6 6 0 1 0 15 11M15 2v4h-4"/></svg></button></div>
+
+    <details class="connection-panel" id="connection-panel" open>
+      <summary><span><svg viewBox="0 0 16 16" aria-hidden="true"><path d="M5 2v4M11 2v4M3 6h10v2a5 5 0 0 1-5 5v2M3 6V4M13 6V4"/></svg>Connection</span><span class="connection-summary"><span id="connection-address">Local · 4455</span><svg viewBox="0 0 16 16" aria-hidden="true"><path d="m5 6 3 3 3-3"/></svg></span></summary>
+      <form id="connection-form">
+        <div class="connection-fields"><label class="port-field">PORT<input id="port-input" type="number" value="4455" min="1" max="65535" inputmode="numeric" required autocomplete="off"></label><label>PASSWORD<input id="password-input" type="password" placeholder="OBS WebSocket password" autocomplete="off" spellcheck="false"></label></div>
+        <button class="button button-accent connect-button" id="connect-button" type="submit">Connect to OBS<svg viewBox="0 0 16 16" aria-hidden="true"><path d="M3 8h10M9 4l4 4-4 4"/></svg></button>
+        <button class="button disconnect-button" id="disconnect-button" type="button" hidden>Disconnect</button>
+        <p id="keychain-status" class="connection-note" role="status">Checking macOS Keychain…</p>
+        <button class="button disconnect-button" id="forget-password" type="button" disabled>Forget saved password</button>
+        <p class="connection-note">Saved securely in macOS Keychain. Shared by both docks for this OBS port. Leave blank to reuse; enter a password to replace it.</p>
+        <p class="connection-note" id="keychain-setup" hidden><a href="http://127.0.0.1:17642/" target="_blank" rel="noopener">Open Keychain helper setup</a></p>
+      </form>
+    </details>
+    <footer><span>NRC / BROADCAST TOOLS</span><span class="footer-mark">↗</span></footer>
+  </main>
+</body>
+</html>

@@ -1,0 +1,13 @@
+Built-in image-generation tool. Original Husky Typist used as identity reference.
+Dance reference: https://www.youtube.com/shorts/zajJdQ8ujAo
+The animation adapts the reference's knee lifts, lateral steps and bent-arm sweeps to the puppy's proportions.
+
+Use case: stylized-concept
+Asset type: transparent chibi husky mascot sprite for a dancing livestream overlay.
+Reference image: retain only the identity cues from the original Husky Typist: charcoal-gray and snowy white husky mask, blue eyes, black nose, triangular ears, black collar, small silver four-point pendant with cyan center.
+Primary request: redesign this husky to be EXTREMELY CUTE and compact, like a small round plush puppy / chibi cartoon pet. ONE whole-body puppy. Oversized round head makes up 55–60 percent of the total character height (not including ears); tiny soft egg-shaped body, very short stubby legs, enormous rounded mitten-like front paws and big squishy hind paws. Approximately 1.7 heads tall. Clear adorable dog anatomy rather than a human-shaped animal: no humanoid torso, abs, pectorals, narrow waist, long arms or long legs.
+Face: large luminous ice-blue eyes, round white cheek fluff, short muzzle, small black nose, tiny friendly smile. Charming and relaxed, with plush rounded shapes and softly illustrated fur, less realistic detail than the reference.
+Pose: front view, complete body including ears, two front paws, two hind paws, and one short fluffy curled tail. Puppy standing upright playfully, tiny feet spaced apart, little elbows bent and huge front paws held outward at belly height ready to dance. Paws distinct from the tiny belly, no overlaps across face. Symmetrical neutral dance-ready pose with slightly bent stubby knees. Anatomy naturally connected, exactly four limbs.
+Style: polished cute cartoon mascot with soft 3D-like volume, restrained cyan rim light, clean silhouette, no clothes other than the small collar. Not a realistic adult wolf, not a muscular anthropomorphic character.
+Composition: square image, one centered character, entire silhouette visible, 8% transparent margin around all sides. No keyboard, no furniture, no text, no props, no extra characters.
+Background: genuine transparent alpha with no checkerboard, no ground plane, no background glow, no backdrop or baked shadow.

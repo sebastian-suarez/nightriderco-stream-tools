@@ -1,0 +1,372 @@
+@OBSThemeMeta {
+    name: 'NIGHTRIDERCO';
+    id: 'co.nightrider.obs.yami';
+    extends: 'com.obsproject.Yami';
+    author: 'NIGHTRIDERCO';
+    dark: 'true';
+}
+
+@OBSThemeVars {
+    /* Shared with the installed Desktop Switch dock. */
+    --nrc_ice: #89d8ee;
+    --nrc_line: #2b3948;
+    --nrc_selection: #162c38;
+    --nrc_selection_hover: #1b2a36;
+    --nrc_stop: #b82e3f;
+    --nrc_stop_hover: #c63849;
+    --nrc_stop_pressed: #922233;
+    --nrc_stop_border: #f07986;
+
+    /* Neutral ramp: retain Yami's widgets and semantic status colors. */
+    --grey1: #94a8ba;
+    --grey2: #597384;
+    --grey3: #3c5262;
+    --grey4: #2b3948;
+    --grey5: #1b2b39;
+    --grey6: #141e29;
+    --grey7: #0b1118;
+    --grey8: #0b1118;
+    --white1: #f2f6fa;
+    --white2: #dce7ef;
+    --white3: #b9cbd9;
+    --white4: #94a8ba;
+    --white5: #94a8ba;
+
+    /* Dark selection fills keep inherited light text legible. */
+    --blue1: #c1edf7;
+    --blue2: var(--nrc_ice);
+    --blue3: var(--nrc_selection);
+    --blue4: #132633;
+    --blue5: #101e2a;
+    --blue6: #101923;
+    --primary: var(--nrc_selection);
+    --primary_light: var(--nrc_selection_hover);
+    --primary_lighter: var(--nrc_ice);
+    --primary_dark: #132633;
+    --primary_darker: #101e2a;
+
+    --bg_window: #0b1118;
+    --bg_base: #0b1118;
+    --bg_preview: #0b1118;
+    --text: #f2f6fa;
+    --text_light: #f2f6fa;
+    --text_muted: #94a8ba;
+    --text_disabled: #7b91a2;
+    --text_inactive: #dce7ef;
+    --border_color: var(--nrc_line);
+    --highlight_color: var(--nrc_ice);
+    --separator_hover: var(--nrc_ice);
+
+    --input_bg: #101923;
+    --input_bg_hover: #101923;
+    --input_bg_focus: #101923;
+    --input_border: #2b3948;
+    --input_border_hover: #597384;
+    --input_border_focus: var(--nrc_ice);
+    --list_item_bg_selected: var(--nrc_selection);
+    --list_item_bg_hover: #1b2a36;
+
+    --button_bg: #1b2b39;
+    --button_bg_hover: #1b2a36;
+    --button_bg_down: #101923;
+    --button_bg_disabled: #141e29;
+    --button_border: #2b3948;
+    --button_border_hover: #597384;
+    --button_border_focus: var(--nrc_ice);
+
+    --tab_bg: #141e29;
+    --tab_bg_hover: #1b2a36;
+    --tab_bg_down: var(--nrc_selection);
+    --tab_border: var(--nrc_line);
+    --tab_border_hover: #597384;
+    --tab_border_focus: var(--nrc_ice);
+    --tab_border_selected: var(--nrc_ice);
+
+    --scrollbar_bg: #0b1118;
+    --scrollbar_handle: #597384;
+    --scrollbar_hover: #94a8ba;
+    --scrollbar_down: #94a8ba;
+    --scrollbar_border: #2b3948;
+
+    /* Desktop Switch geometry, retaining OBS font and density responsiveness. */
+    --border_radius: 5px;
+    --border_radius_small: 3px;
+    --border_radius_large: 10px;
+    --padding_container: max(10px, calc(12px + var(--padding_base)));
+    --input_padding: max(4px, calc(3px + var(--padding_base)));
+    --input_text_padding: max(9px, calc(7px + var(--padding_base)));
+    --input_height_base: max(calc(var(--input_font_scale) + var(--input_font_padding)), 32);
+    --spacing_input: max(2px, var(--padding_base));
+
+    --palette_link: var(--nrc_ice);
+    --palette_linkVisited: #b9cbd9;
+    --palette_placeholderText: #94a8ba;
+}
+
+/* Match Resolution's original system-font stack with the native macOS family. */
+QWidget {
+    font-family: '.AppleSystemUIFont', Helvetica, Arial;
+}
+
+/* Native title bars meet browser docks without a bright header strip. */
+QDockWidget::title {
+    background-color: var(--bg_base);
+    border: none;
+    color: var(--text);
+    padding: 6px 16px 6px 36px;
+    text-align: left center;
+}
+
+QDockWidget::title:!closable {
+    padding-left: 20px;
+}
+
+QDockWidget::close-button,
+QDockWidget::float-button {
+    subcontrol-origin: margin;
+    subcontrol-position: center left;
+    position: absolute;
+    top: 0px;
+    width: 20px;
+    height: 20px;
+    margin: 0px;
+    padding: 2px;
+}
+
+QDockWidget::close-button {
+    left: 8px;
+}
+
+QDockWidget::float-button {
+    left: 40px;
+}
+
+QDockWidget::float-button:!closable {
+    left: 8px;
+}
+
+QDockWidget::close-button:pressed,
+QDockWidget::float-button:pressed {
+    padding: 2px;
+}
+
+/* Yami uses primary_light as both a fill and a text accent. */
+.text-bright {
+    color: var(--nrc_ice);
+}
+
+QListView::item:hover:!selected:enabled,
+QListWidget::item:hover:!selected:enabled {
+    background-color: var(--list_item_bg_hover);
+}
+
+QTabBar::tab:selected:enabled {
+    color: var(--nrc_ice);
+    border-color: var(--nrc_ice);
+}
+
+/* Choice containers use the same radius and surface as custom dock panels. */
+QGroupBox {
+    background-color: #141e29;
+    border-radius: var(--border_radius_large);
+    margin-bottom: 8px;
+    padding-left: 12px;
+    padding-right: 12px;
+    padding-bottom: 12px;
+}
+
+QPushButton:checked:enabled {
+    border-color: var(--nrc_ice);
+}
+
+#controlsFrame QPushButton {
+    margin: 4px 0px;
+}
+
+/* Inputs remain recognizable when their fill matches the surrounding panel. */
+QComboBox,
+QSpinBox,
+QDoubleSpinBox,
+QLineEdit,
+QTextEdit,
+QPlainTextEdit {
+    border-color: var(--input_border);
+}
+
+QLineEdit,
+QTextEdit,
+QPlainTextEdit {
+    placeholder-text-color: var(--text_muted);
+}
+
+/* Focus changes only the existing boundary, preserving control geometry. */
+QPushButton:focus:enabled,
+QToolButton:focus:enabled,
+QComboBox:focus:enabled,
+QLineEdit:focus:enabled,
+QTextEdit:focus:enabled,
+QPlainTextEdit:focus:enabled,
+QSpinBox:focus:enabled,
+QDoubleSpinBox:focus:enabled,
+QListView::item:focus,
+QListWidget::item:focus {
+    border-color: var(--nrc_ice);
+}
+
+QSlider::handle:focus:enabled {
+    background-color: var(--nrc_ice);
+}
+
+QCheckBox:focus:enabled,
+QRadioButton:focus:enabled {
+    outline: 1px solid var(--nrc_ice);
+    outline-offset: 1px;
+}
+
+QToolTip {
+    background-color: var(--button_bg);
+    color: var(--text);
+    border: 1px solid var(--nrc_line);
+}
+
+/* Keep nominal/warning/clipping meter colors inherited from Yami. */
+VolumeMeter {
+    color: var(--text_muted);
+    qproperty-minorTickColor: var(--text_muted);
+}
+
+/* The dock tab strip uses the same canvas and controls as the dock itself. */
+QMainWindow > QTabBar {
+    qproperty-drawBase: false;
+    background-color: var(--bg_base);
+    border: none;
+}
+
+QMainWindow > QTabBar::tab,
+QMainWindow > QTabBar::tab:top,
+QMainWindow > QTabBar::tab:bottom {
+    background-color: var(--button_bg);
+    color: var(--text_muted);
+    border: 1px solid var(--nrc_line);
+    border-radius: var(--border_radius);
+    padding: var(--input_padding) var(--input_text_padding);
+    margin: 4px 2px;
+}
+
+QMainWindow > QTabBar::tab:hover:!selected {
+    background-color: var(--button_bg_hover);
+    border-color: var(--button_border_hover);
+    color: var(--text);
+}
+
+QMainWindow > QTabBar::tab:selected {
+    background-color: var(--nrc_selection);
+    border-color: var(--nrc_ice);
+    color: var(--nrc_ice);
+}
+
+QMainWindow > QTabBar::tab:focus {
+    border-color: var(--nrc_ice);
+}
+
+/* Separate the content outline from its heading; title padding cannot resize Qt docks. */
+OBSDock > QWidget {
+    margin-top: 8px;
+    border: 1px solid var(--nrc_line);
+    border-radius: var(--border_radius_large);
+    padding: 4px;
+}
+
+/* Native video surfaces use OBS's display clear color, not QWidget painting. */
+#canvasEditor OBSQTDisplay,
+#preview {
+    qproperty-displayBackgroundColor: var(--bg_base);
+}
+
+.label-preview-title {
+    qproperty-alignment: AlignCenter;
+    margin-top: 14px;
+    margin-bottom: 14px;
+}
+
+/* Pair the extension's main-window inset with an equal title offset. */
+.label-preview-title[nrcMainWindowInset="true"] {
+    margin-top: 6px;
+}
+
+#contextContainer {
+    background-color: #141e29;
+    border: 1px solid var(--nrc_line);
+    border-radius: var(--border_radius_large);
+    margin-top: 8px;
+    padding: 6px;
+}
+
+/* Stop Streaming must stand apart from normal and selected controls. */
+#streamButton.state-active:enabled:!hover:!pressed,
+#streamButton.state-active:enabled:hover:!pressed,
+#streamButton.state-active:enabled:pressed {
+    color: #ffffff;
+    border: 2px solid var(--nrc_stop_border);
+    font-weight: bold;
+}
+
+#streamButton.state-active:enabled:!hover:!pressed {
+    background-color: var(--nrc_stop);
+}
+
+#streamButton.state-active:enabled:hover:!pressed {
+    background-color: var(--nrc_stop_hover);
+}
+
+#streamButton.state-active:enabled:pressed {
+    background-color: var(--nrc_stop_pressed);
+}
+
+#streamButton.state-active:enabled:focus:!hover:!pressed,
+#streamButton.state-active:enabled:focus:hover:!pressed,
+#streamButton.state-active:enabled:focus:pressed {
+    border-color: #ffffff;
+}
+
+#streamButton.state-active:disabled:!hover:!pressed,
+#streamButton.state-active:disabled:hover:!pressed,
+#streamButton.state-active:disabled:pressed {
+    background-color: #54242f;
+    color: #dce7ef;
+    border: 2px solid #a55d68;
+}
+
+/* CEF owns its native content surface; Qt box insets hide that surface. */
+BrowserDock > QWidget {
+    margin: 0px;
+    padding: 0px;
+    border: none;
+    border-radius: 0px;
+}
+
+/* These plain QWidget wrappers do not inset their child layouts. */
+#dockWidgetContents_2,
+#dockWidgetContents_6 {
+    margin: 0px;
+    padding: 0px;
+    border: none;
+}
+#scenesFrame,
+#sourcesFrame {
+    margin-top: 8px;
+    padding: 4px;
+    border: 1px solid var(--nrc_line);
+    border-radius: var(--border_radius_large);
+    background-color: var(--bg_base);
+}
+
+/* Native underlays supplied by the optional panel-frame extension. */
+QFrame#nrcPreviewFrame,
+QFrame#nrcProgramFrame {
+    background-color: var(--bg_base);
+    border: 1px solid var(--nrc_line);
+    border-radius: var(--border_radius_large);
+    margin: 0px;
+    padding: 0px;
+}

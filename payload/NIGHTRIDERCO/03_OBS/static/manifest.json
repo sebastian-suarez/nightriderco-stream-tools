@@ -1,0 +1,73 @@
+{
+  "canvas": [
+    2560,
+    1440
+  ],
+  "webcamStandalone": {
+    "canvas": [
+      576,
+      331
+    ],
+    "innerOpening": {
+      "x": 8,
+      "y": 8,
+      "width": 560,
+      "height": 315
+    },
+    "positionWhenMatchingGameplay": {
+      "x": 52,
+      "y": 1022
+    }
+  },
+  "assets": [
+    {
+      "name": "starting-soon",
+      "width": 2560,
+      "height": 1440,
+      "svg": "starting-soon.svg",
+      "png": "starting-soon.png"
+    },
+    {
+      "name": "brb",
+      "width": 2560,
+      "height": 1440,
+      "svg": "brb.svg",
+      "png": "brb.png"
+    },
+    {
+      "name": "ending",
+      "width": 2560,
+      "height": 1440,
+      "svg": "ending.svg",
+      "png": "ending.png"
+    },
+    {
+      "name": "just-chatting-overlay",
+      "width": 2560,
+      "height": 1440,
+      "svg": "just-chatting-overlay.svg",
+      "png": "just-chatting-overlay.png"
+    },
+    {
+      "name": "gameplay-overlay",
+      "width": 2560,
+      "height": 1440,
+      "svg": "gameplay-overlay.svg",
+      "png": "gameplay-overlay.png"
+    },
+    {
+      "name": "workshop-overlay",
+      "width": 2560,
+      "height": 1440,
+      "svg": "workshop-overlay.svg",
+      "png": "workshop-overlay.png"
+    },
+    {
+      "name": "webcam-frame-560x315",
+      "width": 576,
+      "height": 331,
+      "svg": "webcam-frame-560x315.svg",
+      "png": "webcam-frame-560x315.png"
+    }
+  ]
+}

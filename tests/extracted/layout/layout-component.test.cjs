@@ -1,0 +1,12 @@
+const {test}=require('node:test');const assert=require('node:assert/strict');
+const {LayoutClient}=require('../../../payload/NIGHTRIDERCO/08_LAYOUT_DOCK/layout-core.js');
+const transform={positionX:39,positionY:744,width:432,height:248.25,scaleX:.75,scaleY:.75};
+function client({direct=false,hidden=false,legacy=false}={}){
+ const c=new LayoutClient();c.factor=.75;c.calls=[];
+ c.request=async(type,data)=>{c.calls.push({type,data});if(type==='GetSceneItemList')return {sceneItems:[{sourceName:direct?'Camera Switch':'NRC Camera · Workshop',sourceType:'OBS_SOURCE_TYPE_SCENE',isGroup:!direct,sceneItemId:10,sceneItemEnabled:!hidden,sceneItemTransform:transform},{sourceName:'[HTML] Chat Minimal',sceneItemId:9,sceneItemEnabled:true,sceneItemTransform:{...transform,positionX:1500}}]};if(type==='GetGroupSceneItemList')return {sceneItems:[{sourceName:legacy?'Webcam':'Camera Switch',sourceType:legacy?'OBS_SOURCE_TYPE_INPUT':'OBS_SOURCE_TYPE_SCENE',isGroup:false,sceneItemId:20,sceneItemEnabled:true}]};throw Error('Unexpected request '+type);};return c;
+}
+test('Grouped Camera Switch is ready without inspecting global Webcam visibility',async()=>{const c=client();const state=await c.inspect('Workshop');assert.equal(state.missing,false);assert.equal(state.observed.camera.id,10);assert.equal(state.observed.camera.visible,true);assert.equal(c.calls.length,2);});
+test('Hidden local instance remains a valid controllable layout',async()=>{const c=client({hidden:true});assert.equal((await c.inspect('Workshop')).observed.camera.visible,false);});
+test('Direct Camera Switch is supported when the wrapper is removed',async()=>{const c=client({direct:true});assert.equal((await c.inspect('Workshop')).observed.camera.id,10);assert.equal(c.calls.length,1);});
+test('Legacy direct Webcam group is rejected before it can be controlled',async()=>{await assert.rejects(client({legacy:true}).inspect('Workshop'),/Camera Switch/);});
+test('Visibility and position target only the local wrapper; bounds stay unchanged',async()=>{const c=client();c.change=async(kind,fn)=>fn({sceneName:'Workshop',sceneItemId:10},{transform});const writes=[];c.request=async(type,data)=>writes.push({type,data});await c.setVisible('camera',false);await c.move('camera','top-right');assert.deepEqual(writes[0],{type:'SetSceneItemEnabled',data:{sceneName:'Workshop',sceneItemId:10,sceneItemEnabled:false}});assert.equal(writes[1].data.sceneItemTransform.positionX,1449);assert.equal(writes[1].data.sceneItemTransform.boundsWidth,undefined);assert(writes.every(r=>r.data.sceneName==='Workshop'));});

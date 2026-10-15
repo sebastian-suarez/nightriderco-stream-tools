@@ -1,0 +1,489 @@
+{
+  "brand": "NIGHTRIDERCO",
+  "created": "2026-10-13",
+  "palette": {
+    "ink": "#0B1118",
+    "navy": "#152330",
+    "white": "#F1F6F8",
+    "muted": "#95A8B5",
+    "ice": "#74DFFF",
+    "lime": "#B5F36B"
+  },
+  "font": "Arial / Helvetica / sans-serif",
+  "notes": [
+    "SVG panel and wordmark typography remains editable text. Arial is requested; Helvetica and generic sans-serif are fallbacks.",
+    "Panel exports are header images only; no schedule, hardware specifications, external links, donation instructions, or policies have been invented.",
+    "Badge names and milestone mapping are suggestions; 512, 64 and 32 px exports are design exports, not platform eligibility or size requirements.",
+    "All branding and badges are original geometric artwork with transparent backgrounds."
+  ],
+  "assets": [
+    {
+      "path": "02_CHANNEL/panels/01_about_640x160.svg",
+      "category": "channel_panel",
+      "format": "svg",
+      "width": 640,
+      "height": 160,
+      "languages": [
+        "en",
+        "es"
+      ],
+      "label_en": "ABOUT",
+      "label_es": "SOBRE MÍ"
+    },
+    {
+      "path": "02_CHANNEL/panels/02_schedule_640x160.svg",
+      "category": "channel_panel",
+      "format": "svg",
+      "width": 640,
+      "height": 160,
+      "languages": [
+        "en",
+        "es"
+      ],
+      "label_en": "SCHEDULE",
+      "label_es": "HORARIOS"
+    },
+    {
+      "path": "02_CHANNEL/panels/03_rules_640x160.svg",
+      "category": "channel_panel",
+      "format": "svg",
+      "width": 640,
+      "height": 160,
+      "languages": [
+        "en",
+        "es"
+      ],
+      "label_en": "RULES",
+      "label_es": "REGLAS"
+    },
+    {
+      "path": "02_CHANNEL/panels/04_setup_640x160.svg",
+      "category": "channel_panel",
+      "format": "svg",
+      "width": 640,
+      "height": 160,
+      "languages": [
+        "en",
+        "es"
+      ],
+      "label_en": "SETUP",
+      "label_es": "EQUIPO"
+    },
+    {
+      "path": "02_CHANNEL/panels/05_simracing_640x160.svg",
+      "category": "channel_panel",
+      "format": "svg",
+      "width": 640,
+      "height": 160,
+      "languages": [
+        "en",
+        "es"
+      ],
+      "label_en": "SIMRACING",
+      "label_es": "SIMRACING"
+    },
+    {
+      "path": "02_CHANNEL/panels/06_code_ai_640x160.svg",
+      "category": "channel_panel",
+      "format": "svg",
+      "width": 640,
+      "height": 160,
+      "languages": [
+        "en",
+        "es"
+      ],
+      "label_en": "CODE & AI",
+      "label_es": "CÓDIGO E IA"
+    },
+    {
+      "path": "02_CHANNEL/panels/07_workshop_640x160.svg",
+      "category": "channel_panel",
+      "format": "svg",
+      "width": 640,
+      "height": 160,
+      "languages": [
+        "en",
+        "es"
+      ],
+      "label_en": "WORKSHOP",
+      "label_es": "TALLER"
+    },
+    {
+      "path": "02_CHANNEL/panels/08_irl_640x160.svg",
+      "category": "channel_panel",
+      "format": "svg",
+      "width": 640,
+      "height": 160,
+      "languages": [
+        "en",
+        "es"
+      ],
+      "label_en": "IRL",
+      "label_es": "EN VIVO"
+    },
+    {
+      "path": "02_CHANNEL/panels/09_socials_640x160.svg",
+      "category": "channel_panel",
+      "format": "svg",
+      "width": 640,
+      "height": 160,
+      "languages": [
+        "en",
+        "es"
+      ],
+      "label_en": "SOCIALS",
+      "label_es": "REDES"
+    },
+    {
+      "path": "02_CHANNEL/panels/10_support_640x160.svg",
+      "category": "channel_panel",
+      "format": "svg",
+      "width": 640,
+      "height": 160,
+      "languages": [
+        "en",
+        "es"
+      ],
+      "label_en": "SUPPORT",
+      "label_es": "APOYO"
+    },
+    {
+      "path": "02_CHANNEL/panels/11_faq_640x160.svg",
+      "category": "channel_panel",
+      "format": "svg",
+      "width": 640,
+      "height": 160,
+      "languages": [
+        "en",
+        "es"
+      ],
+      "label_en": "FAQ",
+      "label_es": "PREGUNTAS"
+    },
+    {
+      "path": "02_CHANNEL/panels/12_commands_640x160.svg",
+      "category": "channel_panel",
+      "format": "svg",
+      "width": 640,
+      "height": 160,
+      "languages": [
+        "en",
+        "es"
+      ],
+      "label_en": "COMMANDS",
+      "label_es": "COMANDOS"
+    },
+    {
+      "path": "02_CHANNEL/panels/01_about_640x160.png",
+      "category": "channel_panel",
+      "format": "png",
+      "width": 640,
+      "height": 160,
+      "languages": [
+        "en",
+        "es"
+      ],
+      "label_en": "ABOUT",
+      "label_es": "SOBRE MÍ"
+    },
+    {
+      "path": "02_CHANNEL/panels/01_about_320x80.png",
+      "category": "channel_panel",
+      "format": "png",
+      "width": 320,
+      "height": 80,
+      "languages": [
+        "en",
+        "es"
+      ],
+      "label_en": "ABOUT",
+      "label_es": "SOBRE MÍ"
+    },
+    {
+      "path": "02_CHANNEL/panels/02_schedule_640x160.png",
+      "category": "channel_panel",
+      "format": "png",
+      "width": 640,
+      "height": 160,
+      "languages": [
+        "en",
+        "es"
+      ],
+      "label_en": "SCHEDULE",
+      "label_es": "HORARIOS"
+    },
+    {
+      "path": "02_CHANNEL/panels/02_schedule_320x80.png",
+      "category": "channel_panel",
+      "format": "png",
+      "width": 320,
+      "height": 80,
+      "languages": [
+        "en",
+        "es"
+      ],
+      "label_en": "SCHEDULE",
+      "label_es": "HORARIOS"
+    },
+    {
+      "path": "02_CHANNEL/panels/03_rules_640x160.png",
+      "category": "channel_panel",
+      "format": "png",
+      "width": 640,
+      "height": 160,
+      "languages": [
+        "en",
+        "es"
+      ],
+      "label_en": "RULES",
+      "label_es": "REGLAS"
+    },
+    {
+      "path": "02_CHANNEL/panels/03_rules_320x80.png",
+      "category": "channel_panel",
+      "format": "png",
+      "width": 320,
+      "height": 80,
+      "languages": [
+        "en",
+        "es"
+      ],
+      "label_en": "RULES",
+      "label_es": "REGLAS"
+    },
+    {
+      "path": "02_CHANNEL/panels/04_setup_640x160.png",
+      "category": "channel_panel",
+      "format": "png",
+      "width": 640,
+      "height": 160,
+      "languages": [
+        "en",
+        "es"
+      ],
+      "label_en": "SETUP",
+      "label_es": "EQUIPO"
+    },
+    {
+      "path": "02_CHANNEL/panels/04_setup_320x80.png",
+      "category": "channel_panel",
+      "format": "png",
+      "width": 320,
+      "height": 80,
+      "languages": [
+        "en",
+        "es"
+      ],
+      "label_en": "SETUP",
+      "label_es": "EQUIPO"
+    },
+    {
+      "path": "02_CHANNEL/panels/05_simracing_640x160.png",
+      "category": "channel_panel",
+      "format": "png",
+      "width": 640,
+      "height": 160,
+      "languages": [
+        "en",
+        "es"
+      ],
+      "label_en": "SIMRACING",
+      "label_es": "SIMRACING"
+    },
+    {
+      "path": "02_CHANNEL/panels/05_simracing_320x80.png",
+      "category": "channel_panel",
+      "format": "png",
+      "width": 320,
+      "height": 80,
+      "languages": [
+        "en",
+        "es"
+      ],
+      "label_en": "SIMRACING",
+      "label_es": "SIMRACING"
+    },
+    {
+      "path": "02_CHANNEL/panels/06_code_ai_640x160.png",
+      "category": "channel_panel",
+      "format": "png",
+      "width": 640,
+      "height": 160,
+      "languages": [
+        "en",
+        "es"
+      ],
+      "label_en": "CODE & AI",
+      "label_es": "CÓDIGO E IA"
+    },
+    {
+      "path": "02_CHANNEL/panels/06_code_ai_320x80.png",
+      "category": "channel_panel",
+      "format": "png",
+      "width": 320,
+      "height": 80,
+      "languages": [
+        "en",
+        "es"
+      ],
+      "label_en": "CODE & AI",
+      "label_es": "CÓDIGO E IA"
+    },
+    {
+      "path": "02_CHANNEL/panels/07_workshop_640x160.png",
+      "category": "channel_panel",
+      "format": "png",
+      "width": 640,
+      "height": 160,
+      "languages": [
+        "en",
+        "es"
+      ],
+      "label_en": "WORKSHOP",
+      "label_es": "TALLER"
+    },
+    {
+      "path": "02_CHANNEL/panels/07_workshop_320x80.png",
+      "category": "channel_panel",
+      "format": "png",
+      "width": 320,
+      "height": 80,
+      "languages": [
+        "en",
+        "es"
+      ],
+      "label_en": "WORKSHOP",
+      "label_es": "TALLER"
+    },
+    {
+      "path": "02_CHANNEL/panels/08_irl_640x160.png",
+      "category": "channel_panel",
+      "format": "png",
+      "width": 640,
+      "height": 160,
+      "languages": [
+        "en",
+        "es"
+      ],
+      "label_en": "IRL",
+      "label_es": "EN VIVO"
+    },
+    {
+      "path": "02_CHANNEL/panels/08_irl_320x80.png",
+      "category": "channel_panel",
+      "format": "png",
+      "width": 320,
+      "height": 80,
+      "languages": [
+        "en",
+        "es"
+      ],
+      "label_en": "IRL",
+      "label_es": "EN VIVO"
+    },
+    {
+      "path": "02_CHANNEL/panels/09_socials_640x160.png",
+      "category": "channel_panel",
+      "format": "png",
+      "width": 640,
+      "height": 160,
+      "languages": [
+        "en",
+        "es"
+      ],
+      "label_en": "SOCIALS",
+      "label_es": "REDES"
+    },
+    {
+      "path": "02_CHANNEL/panels/09_socials_320x80.png",
+      "category": "channel_panel",
+      "format": "png",
+      "width": 320,
+      "height": 80,
+      "languages": [
+        "en",
+        "es"
+      ],
+      "label_en": "SOCIALS",
+      "label_es": "REDES"
+    },
+    {
+      "path": "02_CHANNEL/panels/10_support_640x160.png",
+      "category": "channel_panel",
+      "format": "png",
+      "width": 640,
+      "height": 160,
+      "languages": [
+        "en",
+        "es"
+      ],
+      "label_en": "SUPPORT",
+      "label_es": "APOYO"
+    },
+    {
+      "path": "02_CHANNEL/panels/10_support_320x80.png",
+      "category": "channel_panel",
+      "format": "png",
+      "width": 320,
+      "height": 80,
+      "languages": [
+        "en",
+        "es"
+      ],
+      "label_en": "SUPPORT",
+      "label_es": "APOYO"
+    },
+    {
+      "path": "02_CHANNEL/panels/11_faq_640x160.png",
+      "category": "channel_panel",
+      "format": "png",
+      "width": 640,
+      "height": 160,
+      "languages": [
+        "en",
+        "es"
+      ],
+      "label_en": "FAQ",
+      "label_es": "PREGUNTAS"
+    },
+    {
+      "path": "02_CHANNEL/panels/11_faq_320x80.png",
+      "category": "channel_panel",
+      "format": "png",
+      "width": 320,
+      "height": 80,
+      "languages": [
+        "en",
+        "es"
+      ],
+      "label_en": "FAQ",
+      "label_es": "PREGUNTAS"
+    },
+    {
+      "path": "02_CHANNEL/panels/12_commands_640x160.png",
+      "category": "channel_panel",
+      "format": "png",
+      "width": 640,
+      "height": 160,
+      "languages": [
+        "en",
+        "es"
+      ],
+      "label_en": "COMMANDS",
+      "label_es": "COMANDOS"
+    },
+    {
+      "path": "02_CHANNEL/panels/12_commands_320x80.png",
+      "category": "channel_panel",
+      "format": "png",
+      "width": 320,
+      "height": 80,
+      "languages": [
+        "en",
+        "es"
+      ],
+      "label_en": "COMMANDS",
+      "label_es": "COMANDOS"
+    }
+  ]
+}

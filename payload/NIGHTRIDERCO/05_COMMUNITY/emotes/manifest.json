@@ -1,0 +1,69 @@
+{
+  "spec": "Kick PNG/GIF 500×500, under 1MB; PNG upload files here. Small-preview files are QA only.",
+  "emotes": [
+    {
+      "name": "skadiHi",
+      "file": "skadi-hi-500.png",
+      "width": 500,
+      "height": 500,
+      "bytes": 370920,
+      "transparent": true
+    },
+    {
+      "name": "skadiGg",
+      "file": "skadi-gg-500.png",
+      "width": 500,
+      "height": 500,
+      "bytes": 385470,
+      "transparent": true
+    },
+    {
+      "name": "skadiHype",
+      "file": "skadi-hype-500.png",
+      "width": 500,
+      "height": 500,
+      "bytes": 370392,
+      "transparent": true
+    },
+    {
+      "name": "skadiRage",
+      "file": "skadi-rage-500.png",
+      "width": 500,
+      "height": 500,
+      "bytes": 371896,
+      "transparent": true
+    },
+    {
+      "name": "skadiThink",
+      "file": "skadi-think-500.png",
+      "width": 500,
+      "height": 500,
+      "bytes": 350542,
+      "transparent": true
+    },
+    {
+      "name": "skadiHeart",
+      "file": "skadi-heart-500.png",
+      "width": 500,
+      "height": 500,
+      "bytes": 332908,
+      "transparent": true
+    },
+    {
+      "name": "skadiLaugh",
+      "file": "skadi-laugh-500.png",
+      "width": 500,
+      "height": 500,
+      "bytes": 367915,
+      "transparent": true
+    },
+    {
+      "name": "skadiLurk",
+      "file": "skadi-lurk-500.png",
+      "width": 500,
+      "height": 500,
+      "bytes": 333397,
+      "transparent": true
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+Generation mode: built-in image_gen tool, transparent_background=true.
+This is the original v1 prompt; see ARTWORK-PROMPT-v2.txt for the wolf and ARTWORK-PROMPT-v3.txt for the corrected keyboard.
+The previous artwork remains available in the first-version ZIP.
+Animation uses five component crops from this atlas. No external fonts or assets.
+
+Use case: stylized-concept
+Asset type: transparent layered sprite atlas for an OBS typing mascot, NIGHTRIDERCO Nordic channel.
+Create ONE sprite atlas on a 1536x1024 transparent canvas divided into a precise 3-column by 2-row grid of six 512x512 cells. No grid lines, labels or text. Each cell has isolated raster artwork on genuine alpha transparency, with clear margins so nothing crosses cells.
+Style: premium hand-painted/cel-shaded streamer mascot, crisp dark slate outlines, angular simplified fur clumps, clean bold silhouette. Adult husky/wolf mix, adorable yet dignified, NOT baby chibi. Match a Norse winter huntress brand: slate #152330, near-black #0B1118, silver-white #F1F6F8, icy cyan #74DFFF. Bright blue eyes, symmetrical dark husky face mask, pointed ears, white muzzle and chest, small charcoal collar with simple four-point silver/cyan compass pendant. Frontal bust view looking a little down toward keyboard. No hood on dog, no weapons, no scenery.
+Top-left cell: complete husky HEAD and NECK/CHEST BUST only, ears fully visible, chest fur narrowing to bottom. NO arms, NO paws, NO keyboard. Centered, 420px wide and 455px tall. Alert content focused expression, mouth closed with tiny smile.
+Top-middle cell: the exact same husky bust at exactly the same position, shape, scale and lighting as top-left, ONLY eyes closed for a blink. NO arms or keyboard.
+Top-right cell: only one mechanical keyboard viewed from front/slightly above, centered, width 440px height 165px. Shallow dark slate case, 65-percent clean key layout, silver and slate keycaps, subtle icy cyan edge illumination. No legible lettering, no brand. No paws, no dog.
+Bottom-left cell: only the husky's viewer-left forearm and rounded white furry paw together as a single isolated component, in front-facing view, aimed slightly down-right, paw facing downward toward a keyboard. Dark slate fur at top of upper forearm fading into silver white paw. Length 225px, width 125px. Rounded toes, NO exposed pink pads, no claws. Camera/lighting same as bust. Designed to overlap chest at upper arm and tap down onto keyboard.
+Bottom-middle cell: matching viewer-right forearm and paw, mirror orientation aimed slightly down-left, exact same scale. One isolated component.
+Bottom-right cell: empty transparent cell.
+Important: this is a production animation atlas, so all five components have clean transparent silhouettes and remain completely separated. The husky is original, inspired by Skadi's winter wolf companion. Refined, expressive, coherent illustration, no random sparkles, no background, no shadows outside components, no watermark.

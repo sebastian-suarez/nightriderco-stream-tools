@@ -1,0 +1,83 @@
+{
+  "brand": "NIGHTRIDERCO",
+  "created": "2026-10-13",
+  "source_art_sha256": {
+    "skadi-master": "106e3c8c567203f04ab2610c6be8648b686f4a380a57d84771b2b1dd54ae11a1",
+    "nordic-landscape": "554bccab1d98a6f5772233c7fee041913380682c2eddec2679cb7c780679171e"
+  },
+  "font": "Arial / Helvetica / sans-serif",
+  "notes": [
+    "All art references are self-contained base64 PNG image tags preserving original source bytes. Only native layout, resize, clipping and overlay composition are used.",
+    "Text objects are editable. Open SVG in a vector editor and change separate text objects; Arial is requested with Helvetica/sans-serif fallback.",
+    "The social schedule and thumbnail have explicitly labeled blank fields. Add your actual content before publishing.",
+    "Static alert cards contain event labels and blank name fields. They do not connect to live alert events.",
+    "Channel banner uses the requested 2560×1400 canvas. Critical title/mascot elements are within the central 60% except a 2 px edge of transparent source margin."
+  ],
+  "assets": [
+    {
+      "path": "02_CHANNEL/avatar-1024.svg",
+      "width": 1024,
+      "height": 1024,
+      "format": "svg",
+      "category": "avatar"
+    },
+    {
+      "path": "02_CHANNEL/channel-banner-2560x1400.svg",
+      "width": 2560,
+      "height": 1400,
+      "format": "svg",
+      "category": "channel_banner",
+      "safe_region": {
+        "x": 512,
+        "y": 280,
+        "width": 1536,
+        "height": 840
+      }
+    },
+    {
+      "path": "02_CHANNEL/offline-banner-1920x1080.svg",
+      "width": 1920,
+      "height": 1080,
+      "format": "svg",
+      "category": "offline_banner"
+    },
+    {
+      "path": "02_CHANNEL/avatar-1024.png",
+      "width": 1024,
+      "height": 1024,
+      "format": "png",
+      "category": "avatar",
+      "bytes": 887929
+    },
+    {
+      "path": "02_CHANNEL/avatar-512.png",
+      "width": 512,
+      "height": 512,
+      "format": "png",
+      "category": "avatar",
+      "bytes": 240989
+    },
+    {
+      "path": "02_CHANNEL/channel-banner-2560x1400.jpg",
+      "width": 2560,
+      "height": 1400,
+      "format": "jpg",
+      "category": "channel_banner",
+      "safe_region": {
+        "x": 512,
+        "y": 280,
+        "width": 1536,
+        "height": 840
+      },
+      "bytes": 424567
+    },
+    {
+      "path": "02_CHANNEL/offline-banner-1920x1080.jpg",
+      "width": 1920,
+      "height": 1080,
+      "format": "jpg",
+      "category": "offline_banner",
+      "bytes": 313559
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>NIGHTRIDERCO · Resolution</title><link rel="stylesheet" href="/dock.css"></head>
+<body><main>
+<header><span class="brand">NIGHTRIDER<span>CO</span></span><span id="connection" class="status">Connecting</span></header>
+<div class="heading"><div><p class="eyebrow">STUDIO CONTROL</p><h1>Resolution</h1></div><span class="badge">16:9</span></div>
+<div class="segmented" role="group" aria-label="Resolution">
+<button id="fhd" data-mode="fhd" disabled aria-pressed="false"><strong>FHD</strong><span>1920 × 1080</span></button>
+<button id="qhd" data-mode="qhd" disabled aria-pressed="false"><strong>2K</strong><span>2560 × 1440</span></button>
+</div>
+<div class="current"><span id="canvas">Canvas · —</span><span id="output">Output · —</span></div>
+<p id="message" role="status" aria-live="polite">Connecting to OBS…</p>
+<p id="error" role="alert" hidden></p>
+<details><summary>What changes together</summary><ul><li>Canvas and scaled output</li><li>Full-frame browser layouts and backgrounds</li><li>Display capture framing in every scene</li><li>Camera groups, chat, overlays and nested scenes</li><li>Configured recording and stream rescale sizes</li></ul><p>Screen capture stays at the display’s native resolution. Smaller browser widgets keep their viewport and scale with the scene. Audio, frame rate and encoder quality stay as configured.</p></details>
+<footer><span id="profile">OBS Studio</span><button id="undo" disabled>Restore previous</button></footer>
+</main><script src="/dock.js"></script></body></html>

@@ -1,0 +1,167 @@
+{
+  "pack": "NIGHTRIDERCO display-aware OBS layouts",
+  "version": 1,
+  "canvas": {
+    "width": 2560,
+    "height": 1440,
+    "aspect_ratio": "16:9"
+  },
+  "recommended_stream_output": {
+    "width": 1920,
+    "height": 1080
+  },
+  "language": {
+    "animated_html": "auto alternates English and Spanish; fixed en or es supported",
+    "static_svg_png": {
+      "original_names": "English labels",
+      "*-es.svg and *-es.png": "Spanish labels"
+    },
+    "config": "../config.js",
+    "default_interval_ms": 6000
+  },
+  "layouts": [
+    {
+      "id": "macbook-full-display",
+      "source_display": {
+        "width": 3024,
+        "height": 1964,
+        "aspect_ratio": "756:491"
+      },
+      "files": [
+        "macbook-full-display.html",
+        "macbook-full-display.svg",
+        "macbook-full-display.png",
+        "macbook-full-display-es.svg",
+        "macbook-full-display-es.png"
+      ],
+      "static_languages": {
+        "en": [
+          "macbook-full-display.svg",
+          "macbook-full-display.png"
+        ],
+        "es": [
+          "macbook-full-display-es.svg",
+          "macbook-full-display-es.png"
+        ]
+      },
+      "desktop_opening": {
+        "x": 40,
+        "y": 96,
+        "width": 1922,
+        "height": 1248
+      },
+      "desktop_transform": {
+        "bounds_type": "Scale to inner bounds",
+        "alignment": "Center",
+        "position": {
+          "x": 40,
+          "y": 96
+        },
+        "bounds": {
+          "width": 1922,
+          "height": 1248
+        },
+        "source_crop": {
+          "left": 0,
+          "top": 0,
+          "right": 0,
+          "bottom": 0
+        },
+        "actual_fitted_rectangle": {
+          "x": 40.2179226069245,
+          "y": 96,
+          "width": 1921.564154786151,
+          "height": 1248
+        }
+      },
+      "webcam_opening": {
+        "x": 2000,
+        "y": 190,
+        "width": 520,
+        "height": 292.5
+      },
+      "source_order_top_to_bottom": [
+        "MacBook overlay (Browser or Image)",
+        "Webcam capture",
+        "MacBook display capture",
+        "Solid slate background #0B1118"
+      ]
+    },
+    {
+      "id": "studio-display",
+      "source_display": {
+        "width": 5120,
+        "height": 2880,
+        "aspect_ratio": "16:9"
+      },
+      "files": [
+        "studio-display.html",
+        "studio-display.svg",
+        "studio-display.png",
+        "studio-display-es.svg",
+        "studio-display-es.png"
+      ],
+      "static_languages": {
+        "en": [
+          "studio-display.svg",
+          "studio-display.png"
+        ],
+        "es": [
+          "studio-display-es.svg",
+          "studio-display-es.png"
+        ]
+      },
+      "desktop_transform": {
+        "bounds_type": "Scale to inner bounds",
+        "alignment": "Center",
+        "position": {
+          "x": 0,
+          "y": 0
+        },
+        "bounds": {
+          "width": 2560,
+          "height": 1440
+        },
+        "source_crop": {
+          "left": 0,
+          "top": 0,
+          "right": 0,
+          "bottom": 0
+        },
+        "actual_fitted_rectangle": {
+          "x": 0,
+          "y": 0,
+          "width": 2560,
+          "height": 1440
+        }
+      },
+      "webcam_opening": {
+        "x": 60,
+        "y": 1030,
+        "width": 560,
+        "height": 315
+      },
+      "source_order_top_to_bottom": [
+        "Studio overlay (Browser or Image)",
+        "Webcam capture",
+        "Studio Display capture",
+        "Solid slate background #0B1118"
+      ]
+    }
+  ],
+  "shared_files": [
+    "display-layouts.css",
+    "display-layouts.js",
+    "READ-ME.txt",
+    "DISPLAY-PREVIEW.png",
+    "validation.json"
+  ],
+  "dependencies": [
+    "../config.js"
+  ],
+  "notes": [
+    "HTML and SVG embed the existing Skadi and crest artwork locally.",
+    "The preview contains simulated display and webcam placeholders only. Do not use the preview as an OBS overlay.",
+    "These are overlays, not imported OBS scene collections."
+  ]
+}

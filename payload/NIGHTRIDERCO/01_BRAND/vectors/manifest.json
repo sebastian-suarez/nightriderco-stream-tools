@@ -1,0 +1,141 @@
+{
+  "brand": "NIGHTRIDERCO",
+  "created": "2026-10-13",
+  "palette": {
+    "ink": "#0B1118",
+    "navy": "#152330",
+    "white": "#F1F6F8",
+    "muted": "#95A8B5",
+    "ice": "#74DFFF",
+    "lime": "#B5F36B"
+  },
+  "font": "Arial / Helvetica / sans-serif",
+  "notes": [
+    "SVG panel and wordmark typography remains editable text. Arial is requested; Helvetica and generic sans-serif are fallbacks.",
+    "Panel exports are header images only; no schedule, hardware specifications, external links, donation instructions, or policies have been invented.",
+    "Badge names and milestone mapping are suggestions; 512, 64 and 32 px exports are design exports, not platform eligibility or size requirements.",
+    "All branding and badges are original geometric artwork with transparent backgrounds."
+  ],
+  "assets": [
+    {
+      "path": "01_BRAND/vectors/nightriderco_emblem_ice.svg",
+      "category": "brand_emblem",
+      "format": "svg",
+      "width": 512,
+      "height": 512,
+      "transparent": true
+    },
+    {
+      "path": "01_BRAND/vectors/nightriderco_emblem_white.svg",
+      "category": "brand_emblem",
+      "format": "svg",
+      "width": 512,
+      "height": 512,
+      "transparent": true
+    },
+    {
+      "path": "01_BRAND/vectors/nightriderco_emblem_dark.svg",
+      "category": "brand_emblem",
+      "format": "svg",
+      "width": 512,
+      "height": 512,
+      "transparent": true
+    },
+    {
+      "path": "01_BRAND/vectors/nightriderco_wordmark_ice.svg",
+      "category": "brand_wordmark",
+      "format": "svg",
+      "width": 1280,
+      "height": 340,
+      "transparent": true
+    },
+    {
+      "path": "01_BRAND/vectors/nightriderco_wordmark_white.svg",
+      "category": "brand_wordmark",
+      "format": "svg",
+      "width": 1280,
+      "height": 340,
+      "transparent": true
+    },
+    {
+      "path": "01_BRAND/vectors/nightriderco_wordmark_dark.svg",
+      "category": "brand_wordmark",
+      "format": "svg",
+      "width": 1280,
+      "height": 340,
+      "transparent": true
+    },
+    {
+      "path": "01_BRAND/vectors/nightriderco_emblem_ice_512x512.png",
+      "category": "brand_emblem",
+      "format": "png",
+      "width": 512,
+      "height": 512,
+      "transparent": true
+    },
+    {
+      "path": "01_BRAND/vectors/nightriderco_emblem_white_512x512.png",
+      "category": "brand_emblem",
+      "format": "png",
+      "width": 512,
+      "height": 512,
+      "transparent": true
+    },
+    {
+      "path": "01_BRAND/vectors/nightriderco_emblem_dark_512x512.png",
+      "category": "brand_emblem",
+      "format": "png",
+      "width": 512,
+      "height": 512,
+      "transparent": true
+    },
+    {
+      "path": "01_BRAND/vectors/nightriderco_wordmark_ice_1280x340.png",
+      "category": "brand_wordmark",
+      "format": "png",
+      "width": 1280,
+      "height": 340,
+      "transparent": true
+    },
+    {
+      "path": "01_BRAND/vectors/nightriderco_wordmark_ice_2560x680.png",
+      "category": "brand_wordmark",
+      "format": "png",
+      "width": 2560,
+      "height": 680,
+      "transparent": true
+    },
+    {
+      "path": "01_BRAND/vectors/nightriderco_wordmark_white_1280x340.png",
+      "category": "brand_wordmark",
+      "format": "png",
+      "width": 1280,
+      "height": 340,
+      "transparent": true
+    },
+    {
+      "path": "01_BRAND/vectors/nightriderco_wordmark_white_2560x680.png",
+      "category": "brand_wordmark",
+      "format": "png",
+      "width": 2560,
+      "height": 680,
+      "transparent": true
+    },
+    {
+      "path": "01_BRAND/vectors/nightriderco_wordmark_dark_1280x340.png",
+      "category": "brand_wordmark",
+      "format": "png",
+      "width": 1280,
+      "height": 340,
+      "transparent": true
+    },
+    {
+      "path": "01_BRAND/vectors/nightriderco_wordmark_dark_2560x680.png",
+      "category": "brand_wordmark",
+      "format": "png",
+      "width": 2560,
+      "height": 680,
+      "transparent": true
+    }
+  ]
+}

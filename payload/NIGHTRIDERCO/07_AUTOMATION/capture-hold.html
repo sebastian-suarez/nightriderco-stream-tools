@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>NIGHTRIDERCO — One moment</title>
+  <style>
+    *{box-sizing:border-box}
+    html,body{margin:0;width:100%;height:100%;overflow:hidden;background:#0B1118;color:#F1F6F8;font-family:Arial,Helvetica,sans-serif}
+    #stage{position:fixed;inset:0;background:#0B1118;display:flex;flex-direction:column;justify-content:center;padding:7vw;isolation:isolate}
+    #ice-motion{position:absolute;inset:0;width:100%;height:100%;z-index:-1;pointer-events:none}
+    .brand{position:absolute;top:7vh;left:7vw;font-size:2vw;letter-spacing:.25em;font-weight:800}
+    .brand span{color:#74DFFF}
+    .rule{width:6vw;height:3px;background:#74DFFF;margin-bottom:3vh}
+    .copy{transition:opacity .18s ease,transform .18s ease;max-width:85vw}
+    .copy.changing{opacity:0;transform:translateY(.5vh)}
+    h1{font-size:6.5vw;line-height:1;letter-spacing:-.04em;margin:0 0 4vh;font-weight:900}
+    p{font-size:2vw;color:#95A8B5;line-height:1.4;margin:0}
+    .activity{display:flex;gap:.5vw;margin-top:4vh;height:4px}
+    .activity span{display:block;width:2.4vw;min-width:12px;background:#74DFFF;animation:ice-pulse 1.35s ease-in-out infinite}
+    .activity span:nth-child(2){animation-delay:.15s}.activity span:nth-child(3){animation-delay:.3s}
+    .footer{position:absolute;bottom:7vh;left:7vw;right:7vw;border-top:1px solid #304651;padding-top:2vh;font-size:1.1vw;letter-spacing:.15em;color:#95A8B5}
+    @keyframes ice-pulse{0%,100%{opacity:.25;transform:scaleX(.6);transform-origin:left}50%{opacity:1;transform:scaleX(1);transform-origin:left}}
+    @media(prefers-reduced-motion:reduce){.copy{transition:none}.activity span{animation:none;opacity:.7}}
+  </style>
+</head>
+<body>
+  <main id="stage">
+    <canvas id="ice-motion" aria-hidden="true"></canvas>
+    <div class="brand">NIGHTRIDER<span>CO</span></div>
+    <div class="rule"></div>
+    <div class="copy" id="copy"><h1 id="title">ONE MOMENT</h1><p id="subtitle">Getting the workspace ready.</p></div>
+    <div class="activity" aria-hidden="true"><span></span><span></span><span></span></div>
+    <div class="footer">SKADI / DESKTOP AUTO / EN + ES</div>
+  </main>
+  <script src="../03_OBS/config.js"></script>
+  <script src="capture-hold.js"></script>
+</body>
+</html>

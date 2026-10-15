@@ -1,0 +1,15 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Camera Switch</title><link rel="stylesheet" href="camera-switch.css"><script src="keychain-client.js" defer></script><script src="camera-core.js" defer></script><script src="camera-switch.js" defer></script></head>
+<body><main>
+<header><span class="brand">NIGHTRIDERCO</span><span id="connection" class="status">Connecting…</span></header>
+<div class="scene-row"><span class="utility-label">REUSABLE SCENE</span><span class="utility-name">Camera Switch</span><button id="refresh" class="refresh" aria-label="Refresh connection" title="Refresh connection">↻</button></div>
+<p id="scene-name" class="scene-name">Connecting to OBS…</p>
+<div class="choices" role="group" aria-label="Visible source">
+<button id="camera" class="choice" aria-pressed="false" disabled><svg viewBox="0 0 32 32" aria-hidden="true"><rect x="4" y="7" width="24" height="17" rx="5"/><circle cx="16" cy="15.5" r="4.5"/><path d="M11 28h10M16 24v4"/></svg><span>Webcam</span><small id="camera-state">Show camera + frame</small></button>
+<button id="buddy" class="choice" aria-pressed="false" disabled><svg viewBox="0 0 32 32" aria-hidden="true"><rect x="3" y="9" width="26" height="17" rx="4"/><path d="M8 14h1m5 0h1m5 0h1m3 0h1M8 18h1m5 0h1m5 0h1m3 0h1M10 22h12M12 5l-2-3m10 3 2-3"/></svg><span>Typing buddy</span><small id="buddy-state">Show typing buddy</small></button>
+<button id="driving" class="choice" aria-pressed="false" disabled><svg viewBox="0 0 32 32" aria-hidden="true"><circle cx="16" cy="16" r="12"/><circle cx="16" cy="16" r="3.3"/><path d="M4 15h8.5M19.5 15H28M16 19.5V28M14 4h4"/></svg><span>Driving buddy</span><small id="driving-state">Show driving buddy</small></button>
+</div>
+<p id="message" class="message" role="status" aria-live="polite">Reading source visibility…</p>
+<p id="error" class="error" role="alert" hidden></p>
+<footer>Choose one. Updates every scene using Camera Switch.</footer>
+</main></body></html>

@@ -1,0 +1,63 @@
+Build from the NIGHTRIDERCO-HUSKY directory on an Apple Silicon Mac with Xcode:
+
+xcrun swiftc -O -swift-version 5 -sdk "$(xcrun --show-sdk-path)" -target arm64-apple-macosx13.0 -framework AppKit -framework ApplicationServices -framework Network -framework AVFoundation source/HuskyTypist.swift -o "Husky Typist.app/Contents/MacOS/HuskyTypist"
+codesign --force --sign - "Husky Typist.app"
+codesign --verify --strict "Husky Typist.app"
+
+ANIMATION-ONLY UPDATES
+Edit web/mascot.js and the other files in web/, beside the app. Restart the
+helper and refresh the OBS Browser source. Do not modify or re-sign the app
+for artwork-only changes: its ad-hoc signing identity is tied to its code hash,
+and changing it can invalidate macOS privacy permissions. The bundle retains
+a fallback web folder for compatibility, but the sibling web folder takes priority.
+
+NATIVE CHANGES
+Rebuilding or modifying the app requires re-signing and may require refreshing
+its macOS privacy permissions. Build/sign a clean copy outside an iCloud-managed
+folder if Finder metadata causes a signing error, then package that signed copy.
+
+TESTING
+--self-test checks the native RMS/noise gate with synthetic levels and pointer
+normalization, negative monitor coordinates, click counts, held buttons and scroll direction.
+--serve-only --port 18876 starts an isolated server with microphone, keyboard and pointer
+capture disabled. The normal helper uses port 8876. No network endpoint can grant
+permissions or inject key events. Only numeric audio levels, input counts, normalized pointer coordinates and
+button state and scroll direction/count are exposed.
+
+Version 1.8 uses opaque texture deformation to lower the lip and chin around
+fixed mouth corners, revealing the mouth interior. Live input, demo and Test
+talking share one articulator. The helper retries permission availability and
+recovers a stalled audio engine; a restored browser page resumes polling.
+
+TRACKPAD
+The existing listen-only event tap also counts mouse movement, dragging and
+button events. Coordinates are normalized within the display under the cursor.
+No typed characters, window/app names, click targets or movement history are
+collected. The browser draws the glass trackpad between the keyboard halves
+and animates a 120-pixel upper arm and 78-pixel forearm using two-bone inverse
+kinematics. The shoulder shifts, the elbow bends and the wrist counter-rotates;
+bone lengths stay constant. Texture blending is confined to the joints. The
+same pose solver handles both outward-angled resting arms and the trackpad reach.
+Scroll-wheel events expose only direction and a cumulative count. Preview and
+live scrolling share the fingertip sweep, wrist rock and contact strokes.
+Both-axis pointer motion, press/hold and keyboard priority share the same pipeline.
+
+ARTWORK 1.8.1
+The resting forearm slopes are reversed at the same angle, with matching paw
+tilts. The helper remains 1.8; only sibling web/mascot.js changed after signing.
+The bundle keeps its 1.8 fallback. Keep web/ beside the app for the final pose.
+
+ARTWORK 1.8.2
+The shoulder root is (175,370), mirrored for the other arm, and rolls at most
+5 pixels during a reach. Root texture is layered behind the chest; the elbow
+and forearm remain opaque in front. Both segment lengths are constant, and
+the approved resting paw angle stays at -1.1887 radians before mirroring.
+The full reach/scroll/return sequence is checked for shoulder drift, segment
+lengths, preserved paw angle and trackpad contact. No native rebuild is needed.
+
+ARTWORK 1.8.3
+The elbow hangs below the shoulder using 120/78-pixel upper/lower segments.
+Total reach remains 198 pixels. The wrist mapping derives from these lengths,
+so the forearm texture follows the same joints without animated stretching.
+The shoulder anchor and approved hand rotation are unchanged. Tests cover
+elbow height throughout reach, scroll and return, as well as constant lengths.

@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="referrer" content="no-referrer">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'none'; connect-src http://127.0.0.1:17642; style-src 'unsafe-inline'; script-src 'unsafe-inline'; base-uri 'none'; form-action 'none'; object-src 'none'">
+  <title>Desktop Switch</title>
+  <style>
+    :root { color-scheme: dark; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; }
+    * { box-sizing: border-box; }
+    body { margin: 0; min-height: 100vh; display: grid; place-items: center; background: #101419; color: #edf3f8; }
+    main { width: 100%; padding: 24px 18px; text-align: center; }
+    .brand { margin: 0 0 12px; font-size: 10px; font-weight: 700; letter-spacing: .18em; color: #88cfe8; }
+    h1 { margin: 0 0 20px; font-size: 19px; font-weight: 650; }
+    .status { margin: 0; font-size: 14px; }
+    .dot { display: inline-block; width: 7px; height: 7px; margin-right: 7px; border-radius: 50%; background: #88cfe8; }
+    .detail { margin: 9px 0 0; color: #94a2af; font-size: 12px; line-height: 1.5; }
+  </style>
+</head>
+<body>
+  <main aria-live="polite">
+    <p class="brand">NIGHTRIDERCO</p>
+    <h1>Desktop Switch</h1>
+    <p class="status"><span class="dot" aria-hidden="true"></span><span id="status">Connecting…</span></p>
+    <p class="detail" id="detail">Waiting for the local dock to be ready.</p>
+    <noscript><p class="detail">Enable JavaScript in this browser dock to connect.</p></noscript>
+  </main>
+  <script>
+    (() => {
+      'use strict';
+      const target = 'http://127.0.0.1:17642/07_AUTOMATION/desktop-dock.html';
+      let stopped = false, navigating = false, timer = null, activeRequest = null, retryDelay = 800;
+      function stop() {
+        stopped = true;
+        clearTimeout(timer);
+        if (activeRequest) activeRequest.abort();
+      }
+      function schedule(delay) {
+        if (!stopped && !navigating) timer = setTimeout(connect, delay);
+      }
+      async function connect() {
+        if (stopped || navigating) return;
+        const controller = new AbortController();
+        activeRequest = controller;
+        const timeout = setTimeout(() => controller.abort(), 2500);
+        try {
+          // Any HTTP response, including an opaque response, confirms that the helper is listening.
+          await fetch(target, { mode: 'no-cors', credentials: 'omit', cache: 'no-store', signal: controller.signal });
+          if (stopped || navigating) return;
+          navigating = true;
+          document.getElementById('status').textContent = 'Opening dock…';
+          location.replace(target);
+        } catch (_) {
+          if (stopped || navigating) return;
+          document.getElementById('detail').textContent = 'Waiting for the local dock. Reconnecting automatically…';
+          schedule(retryDelay);
+          retryDelay = Math.min(3000, Math.ceil(retryDelay * 1.5));
+        } finally {
+          clearTimeout(timeout);
+          if (activeRequest === controller) activeRequest = null;
+        }
+      }
+      window.addEventListener('pagehide', stop, { once: true });
+      window.addEventListener('beforeunload', stop, { once: true });
+      schedule(1200);
+    })();
+  </script>
+</body>
+</html>
